@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-labelledby="timing-title timing-desc">
+  <title id="timing-title">HSA cash timing around a medical bill</title>
+  <desc id="timing-desc">A four-step timeline: choose a plan and confirm when HSA funding arrives; receive care and wait for the insurer's explanation of benefits; compare the amount due with HSA funds and other cash actually available on the due date; later deposits increase the balance but cannot pay a bill that was due earlier.</desc>
+  <rect width="900" height="260" rx="16" fill="#FFF8EC"/>
+  <path d="M116 83H784" fill="none" stroke="#14213D" stroke-width="4"/>
+  <path d="m773 73 18 10-18 10" fill="none" stroke="#14213D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Manrope,Arial,sans-serif" fill="#14213D">
+    <circle cx="110" cy="83" r="20" fill="#FFC233"/><text x="110" y="89" font-size="16" font-weight="800" text-anchor="middle">1</text>
+    <circle cx="338" cy="83" r="20" fill="#FFC233"/><text x="338" y="89" font-size="16" font-weight="800" text-anchor="middle">2</text>
+    <circle cx="566" cy="83" r="20" fill="#FFC233"/><text x="566" y="89" font-size="16" font-weight="800" text-anchor="middle">3</text>
+    <circle cx="790" cy="83" r="20" fill="#FFC233"/><text x="790" y="89" font-size="16" font-weight="800" text-anchor="middle">4</text>
+    <text x="28" y="128" font-size="14" font-weight="800">Enroll</text>
+    <text x="28" y="150" font-size="12"><tspan x="28" dy="0">Confirm the employer</tspan><tspan x="28" dy="17">deposit schedule.</tspan></text>
+    <text x="256" y="128" font-size="14" font-weight="800">Care + claim</text>
+    <text x="256" y="150" font-size="12"><tspan x="256" dy="0">Use the EOB to see what</tspan><tspan x="256" dy="17">you owe after processing.</tspan></text>
+    <text x="484" y="128" font-size="14" font-weight="800">Bill due date</text>
+    <text x="484" y="150" font-size="12"><tspan x="484" dy="0">Count HSA money and cash</tspan><tspan x="484" dy="17">available by this date.</tspan></text>
+    <text x="708" y="128" font-size="14" font-weight="800">Later deposits</text>
+    <text x="708" y="150" font-size="12"><tspan x="708" dy="0">They build the balance,</tspan><tspan x="708" dy="17">not today's available cash.</tspan></text>
+  </g>
+  <rect x="150" y="207" width="600" height="34" rx="8" fill="#14213D"/>
+  <text x="450" y="229" font-family="Manrope,Arial,sans-serif" font-size="13" font-weight="800" text-anchor="middle" fill="#FFF8EC">Available HSA funds + available cash must cover the amount due</text>
+</svg>

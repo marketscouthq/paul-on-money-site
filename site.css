@@ -115,10 +115,9 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .article-card h2 a{text-decoration:none}
 .article-card h2 a:hover{text-decoration:underline}
 .article-card p{font-size:12px;color:#354057;margin:0 0 8px}
-.article-list-empty{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;padding:25px 0;border-top:1px solid var(--line)}
-.article-list-empty figure{margin:0;background:#fff;padding:9px 9px 0;border:1px solid var(--line);box-shadow:7px 7px 0 var(--sun)}
-.article-list-empty img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
-.article-list-empty figcaption{padding:8px 2px;font-size:9px;color:var(--muted)}
+.article-list-empty{display:grid;grid-template-columns:1fr;gap:12px;align-items:start;padding:25px 0;border-top:1px solid var(--line)}
+.article-list-empty h2{font:800 26px/1.13 Bricolage,system-ui,sans-serif;margin:7px 0}
+.article-list-empty .section-intro{max-width:720px;margin:0}
 .feature-figure{margin:0;background:#fff;border:1px solid var(--line);padding:9px 9px 0;box-shadow:5px 5px 0 var(--sun)}
 .feature-figure img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
 .feature-figure figcaption{padding:11px 3px;color:var(--muted);font-size:11px}

@@ -1,16 +1,26 @@
 {
   "schemaVersion": 1,
-  "treeSha256": "21273139c4b317ac7d0d66b537204cc56fce3583bfb8e8abc3f2befe45305a59",
+  "treeSha256": "7d51962d9d62efb891bac002c4016589e4d0d7455cf58183956a79248cee87be",
   "files": [
     {
       "path": "about/index.html",
-      "bytes": 3465,
-      "sha256": "772d65a7ec25adff031e82ce25ff7cbbce69948f9f71f6825a533a5b1a097261"
+      "bytes": 3466,
+      "sha256": "5919d9f6e1bf8915505f79638eec3198ac013e5f108d90ec90bf98a57954b658"
+    },
+    {
+      "path": "articles/hdhp-vs-ppo-cheaper-plan/index.html",
+      "bytes": 49078,
+      "sha256": "c0762333e727ce90e47eb29c205069d2a3ff9ffb296e09f093aff668b7f2f5ab"
     },
     {
       "path": "articles/index.html",
-      "bytes": 2415,
-      "sha256": "9df6a9a7f298238ccd33328542feef3e4fb07cfd135c5a6f739ef4c819360731"
+      "bytes": 2178,
+      "sha256": "6b54c4ca6a5bd241bcfd3f583d875bbf110ffc24f2cb3db92227ff1f27f25b64"
+    },
+    {
+      "path": "assets/bill-timing.svg",
+      "bytes": 2610,
+      "sha256": "ad5f28615974fca036b6fca433c4e7e0cfa2c4213c0783e538add809a70203b9"
     },
     {
       "path": "assets/bric.woff2",
@@ -36,6 +46,31 @@
       "path": "assets/free-cash-flow.png",
       "bytes": 117010,
       "sha256": "1347b9f18bf90abd6c3585caf29a4b99c43dd68dcdde62b71e09a6308effb687"
+    },
+    {
+      "path": "assets/health-plan-comparison-hero-1200.webp",
+      "bytes": 71432,
+      "sha256": "d92713380e13cd523a334a2d0437710759e20dd9b0b7206e8060586c7859814e"
+    },
+    {
+      "path": "assets/health-plan-comparison-hero-480.webp",
+      "bytes": 11654,
+      "sha256": "1b1d4780d2507a278e6d4419b36e30536a13f821565a71cf4fe036bf72dbc0aa"
+    },
+    {
+      "path": "assets/health-plan-comparison-hero-768.webp",
+      "bytes": 23252,
+      "sha256": "e904da0caf0a7a9b1b9044e09fc33841af70a153f13b4444b61f87f62f75946a"
+    },
+    {
+      "path": "assets/health-plan-comparison-hero.png",
+      "bytes": 1166299,
+      "sha256": "d3a0f356b76546487bcaba80d4bfbf3eac1b698ad12c9ff252f72240b5a55b6b"
+    },
+    {
+      "path": "assets/health-plan-comparison-og-lossless.png",
+      "bytes": 696791,
+      "sha256": "f8e6cde2bf36b83cea9c9ed796bcd0c3f463ce25f4567bce534eca94f5252b3e"
     },
     {
       "path": "assets/health-plan-cover.png",
@@ -64,8 +99,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 3765,
-      "sha256": "7438458691ade293dbfc95a8002b1166da8184ed70f243621acce470614fbaae"
+      "bytes": 3766,
+      "sha256": "6fb832033e3cae61ac7f45ad53d77d291e30546ece7bdeca807209727dd020a7"
     },
     {
       "path": "robots.txt",
@@ -74,23 +109,23 @@
     },
     {
       "path": "site.css",
-      "bytes": 35976,
-      "sha256": "11df24670fa9cc17c18ed114049f31161a48258b3a9a0a1e74e8d820b3dacf5d"
+      "bytes": 35818,
+      "sha256": "a18da504f3f4031211ff098eb0beba158e80619f596a7aa5601380cca3ca03b3"
     },
     {
       "path": "sitemap.xml",
-      "bytes": 405,
-      "sha256": "4fcd63b4f2d4ad13b918d6f49d9fac3b7fd1d098793a42d2ca2ab645220f8fe1"
+      "bytes": 488,
+      "sha256": "9c0f4f958a82217ec9349347422fd29dab3edcd2cc7766fd83f0af92a5987539"
     },
     {
       "path": "tools/health-plan-comparison/index.html",
-      "bytes": 35038,
-      "sha256": "aa72015305ae14ae0477360eba5f70379420c6864f6420da587362487d873389"
+      "bytes": 35039,
+      "sha256": "a92c0772a0852b36251787be452752817c82b96206fc5719e0a82c1ed601ec4c"
     },
     {
       "path": "tools/index.html",
-      "bytes": 2283,
-      "sha256": "986f257ae79c3e975401a8815eac0ff110b94ad26e3cff425c70fafca2d04955"
+      "bytes": 2284,
+      "sha256": "f21b8615c8a5853f45d4a9d52f2be1a832872c919fe5d2230b10ca919b5a5ddf"
     }
   ]
 }
