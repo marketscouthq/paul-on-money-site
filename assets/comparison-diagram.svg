@@ -1,0 +1,26 @@
+<svg class="comparison-diagram" viewBox="0 0 600 760" role="img" aria-labelledby="diagram-title diagram-desc" xmlns="http://www.w3.org/2000/svg">
+      <title id="diagram-title">Compare yearly premiums, then the same covered care through each plan</title>
+      <desc id="diagram-desc">A visual path shows yearly premiums separately, compares the same covered-care estimate through PPO and HDHP deductibles, coinsurance, and out-of-pocket caps, then shows HSA eligibility and timing as a separate check.</desc>
+      <rect x="1" y="1" width="598" height="758" rx="22" fill="#FFF8EC" stroke="#D7D2C6" stroke-width="2"/>
+      <text x="28" y="36" fill="#5C6678" font-size="20" font-weight="800" letter-spacing="2">START WITH YEARLY PREMIUMS</text>
+      <rect x="24" y="54" width="552" height="104" rx="14" fill="#FFC233"/>
+      <text x="48" y="94" fill="#14213D" font-size="27" font-weight="800">12 monthly premiums</text>
+      <text x="48" y="130" fill="#14213D" font-size="21">A cost you pay through the year</text>
+      <path d="M300 161v45" stroke="#14213D" stroke-width="4"/><path d="m289 195 11 13 11-13" fill="none" stroke="#14213D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="300" y="235" fill="#14213D" font-size="21" font-weight="800" text-anchor="middle">Run the same covered-care estimate through both plans</text>
+      <rect x="24" y="258" width="268" height="354" rx="16" fill="#FFFFFF" stroke="#14213D" stroke-width="2"/>
+      <rect x="308" y="258" width="268" height="354" rx="16" fill="#FFFFFF" stroke="#14213D" stroke-width="2"/>
+      <rect x="24" y="258" width="268" height="58" rx="15" fill="#14213D"/><rect x="308" y="258" width="268" height="58" rx="15" fill="#14213D"/>
+      <text x="48" y="297" fill="#FFF8EC" font-size="27" font-weight="800">PPO</text><text x="332" y="297" fill="#FFF8EC" font-size="27" font-weight="800">HDHP</text>
+      <g fill="#FFF8EC" stroke="#D7D2C6" stroke-width="1.5">
+        <rect x="42" y="336" width="232" height="68" rx="10"/><rect x="42" y="422" width="232" height="68" rx="10"/><rect x="42" y="508" width="232" height="68" rx="10"/>
+        <rect x="326" y="336" width="232" height="68" rx="10"/><rect x="326" y="422" width="232" height="68" rx="10"/><rect x="326" y="508" width="232" height="68" rx="10"/>
+      </g>
+      <g fill="#FFC233"><circle cx="64" cy="370" r="17"/><circle cx="64" cy="456" r="17"/><circle cx="64" cy="542" r="17"/><circle cx="348" cy="370" r="17"/><circle cx="348" cy="456" r="17"/><circle cx="348" cy="542" r="17"/></g>
+      <g fill="#14213D" font-size="17" font-weight="800" text-anchor="middle"><text x="64" y="376">1</text><text x="64" y="462">2</text><text x="64" y="548">3</text><text x="348" y="376">1</text><text x="348" y="462">2</text><text x="348" y="548">3</text></g>
+      <g fill="#14213D" font-size="22" font-weight="800"><text x="91" y="376">Deductible</text><text x="91" y="462">Coinsurance</text><text x="91" y="548">Out-of-pocket cap</text><text x="375" y="376">Deductible</text><text x="375" y="462">Coinsurance</text><text x="375" y="548">Out-of-pocket cap</text></g>
+      <text x="300" y="643" fill="#5C6678" font-size="18" font-weight="800" text-anchor="middle">Then add premiums + estimated care share</text>
+      <rect x="24" y="666" width="552" height="72" rx="14" fill="#F0EBE0" stroke="#D7D2C6" stroke-width="1.5"/>
+      <text x="46" y="697" fill="#14213D" font-size="23" font-weight="800">Separate HSA check</text>
+      <text x="46" y="724" fill="#354057" font-size="19">Eligibility · deposit timing · eligible expenses</text>
+    </svg>
