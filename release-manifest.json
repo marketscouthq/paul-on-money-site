@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "treeSha256": "b9d357f67266a3f1fa680cd1b325ca24fb42cad1e699e5128a54f681f0a06894",
+  "treeSha256": "03379a7aa0fb50cc17fd61d7037f96710b4e9eca4c8741061ace6f5f02526318",
   "files": [
     {
       "path": "about/index.html",
-      "bytes": 5511,
-      "sha256": "63445819113dce0b2666e9356a4fabe914d98cb2fdf66d61fe827bb40930d024"
+      "bytes": 3465,
+      "sha256": "772d65a7ec25adff031e82ce25ff7cbbce69948f9f71f6825a533a5b1a097261"
     },
     {
       "path": "articles/index.html",
-      "bytes": 4145,
-      "sha256": "81e75ed4ca3b9cbae7fc5c296ee5380b4da8a7317638d0e8224fec66c1bc994c"
+      "bytes": 2415,
+      "sha256": "9df6a9a7f298238ccd33328542feef3e4fb07cfd135c5a6f739ef4c819360731"
     },
     {
       "path": "assets/bric.woff2",
@@ -49,33 +49,23 @@
     },
     {
       "path": "calculator-app.mjs",
-      "bytes": 5778,
-      "sha256": "08b7dbea56bd281850cc354fc673884c6f61ab8e2a1d62815563a91e557acfa2"
+      "bytes": 16820,
+      "sha256": "863570c978f51e3624b65e337c89949668621cb127dff9ca869b3f897a610009"
     },
     {
       "path": "calculator-core.mjs",
-      "bytes": 11377,
-      "sha256": "da7166485d47c003555cdc855c6714226787a080de7c158594818c4f45246bb6"
+      "bytes": 14952,
+      "sha256": "191471f92e34d82e8244b21e727499ea9ba02feb3b9ee6e78a76933b9c47a677"
     },
     {
       "path": "calculator.css",
-      "bytes": 3434,
-      "sha256": "ec77c4dae44dd5a9ac9b926b7d8e0192bbaadc6ba40fe80fa5f28d7dd52b3a35"
-    },
-    {
-      "path": "chat-config.js",
-      "bytes": 52,
-      "sha256": "fdfe61cbc8234d36be059c7fa86076c6102136af0b69b7d6335eb46dba223ff7"
-    },
-    {
-      "path": "chat.js",
-      "bytes": 926,
-      "sha256": "c26a2090cadcb5e7dd98ecbc8ae9cc3631141a072d2b2f53d261e70e625c6666"
+      "bytes": 9680,
+      "sha256": "86f82f7f2e9295b718bfd6a366afe44ac631cef1de77149a4fb3232aa59aa589"
     },
     {
       "path": "index.html",
-      "bytes": 6212,
-      "sha256": "ffaca22bf9a44a8090506ec27a57b775add94c73c03f763f9f4e3b85472824a0"
+      "bytes": 3765,
+      "sha256": "7438458691ade293dbfc95a8002b1166da8184ed70f243621acce470614fbaae"
     },
     {
       "path": "robots.txt",
@@ -88,24 +78,19 @@
       "sha256": "cf1297c09472bdf5a1273d0c3bd51e46c42ed0f7e6b8d232d8b203210377f711"
     },
     {
-      "path": "site.js",
-      "bytes": 1065,
-      "sha256": "bd168417c8be4f14e6016b44a56b1688097f12574d4e65128c7d93ededcdaebd"
-    },
-    {
       "path": "sitemap.xml",
       "bytes": 405,
       "sha256": "4fcd63b4f2d4ad13b918d6f49d9fac3b7fd1d098793a42d2ca2ab645220f8fe1"
     },
     {
       "path": "tools/health-plan-comparison/index.html",
-      "bytes": 14109,
-      "sha256": "2b2607f6fc4afdff4d44f84c16245a830133982c1ff10a67e58dfce303ad3298"
+      "bytes": 31092,
+      "sha256": "e0d86317f922867278c5b5182d2aba4b22938cdb62663c97ed4a6d1df8d70680"
     },
     {
       "path": "tools/index.html",
-      "bytes": 4007,
-      "sha256": "af6fae35b30bc46a621128f7c8f515a7ef78c078e87b0eacf529bd5d15f4d2a2"
+      "bytes": 2283,
+      "sha256": "986f257ae79c3e975401a8815eac0ff110b94ad26e3cff425c70fafca2d04955"
     }
   ]
 }

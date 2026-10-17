@@ -149,3 +149,47 @@ export function assessEarlyBill(input = {}) {
     shortfall, funded: shortfall === 0 };
 }
 
+export function projectHsaGrowth(input = {}) {
+  const errors = [];
+  const values = {};
+  for (const field of ['starting', 'contribution', 'returnRate', 'fundExpenseRate', 'adminRate']) {
+    values[field] = numberOrUnknown(input[field]);
+    const n = values[field];
+    const valid = n !== null && (field === 'returnRate' || n >= 0);
+    const label = { starting: 'Starting invested HSA balance', contribution: 'New yearly HSA money left to invest', returnRate: 'Assumed yearly return before fees', fundExpenseRate: 'Fund expense ratio per year', adminRate: 'Percentage investment account fee per year' }[field];
+    if (!valid) errors.push({ field: `growth-${field}`, message: `${label}: enter ${field === 'returnRate' ? 'a number, including 0 or a negative return' : ['fundExpenseRate', 'adminRate'].includes(field) ? 'a percentage of 0 or more' : 'an amount of 0 or more'}. A blank cannot be calculated.` });
+  }
+  values.adminFlatFee = input.adminFlatFee === undefined ? 0 : numberOrUnknown(input.adminFlatFee);
+  if (values.adminFlatFee === null || values.adminFlatFee < 0) errors.push({ field: 'growth-adminFlatFee', message: 'Fixed annual account fee: enter an amount of 0 or more. A blank cannot be calculated.' });
+  values.adminUncapped = input.adminUncapped === true;
+  values.adminCap = values.adminUncapped ? null : numberOrUnknown(input.adminCap);
+  if (!values.adminUncapped && (values.adminCap === null || values.adminCap < 0)) errors.push({ field: 'growth-adminCap', message: 'Annual cap on the percentage account fee: enter an amount of 0 or more, or select that the fee is uncapped. A blank cannot be calculated.' });
+  const netReturn = values.returnRate - values.fundExpenseRate;
+  if (netReturn < -1) errors.push({ field: 'growth-returnRate', message: 'Investment return minus fees cannot be less than −100% in this example.' });
+  if (errors.length) return { ready: false, errors };
+  let ending = values.starting;
+  let totalAdminFees = 0;
+  let firstYearAdminFee = 0;
+  const horizons = [];
+  for (let years = 1; years <= 30; years++) {
+    // Annual approximation: charge the percentage fee on the opening balance,
+    // apply its annual cap, add any fixed annual fee, and collect no more than
+    // the account balance remaining after return and fund expenses. New deposits arrive at year end.
+    const afterReturn = ending * (1 + netReturn);
+    const percentageFee = values.adminUncapped
+      ? ending * values.adminRate
+      : Math.min(ending * values.adminRate, values.adminCap);
+    const assessedFee = percentageFee + values.adminFlatFee;
+    const adminFee = Math.min(afterReturn, assessedFee);
+    if (years === 1) firstYearAdminFee = adminFee;
+    totalAdminFees += adminFee;
+    ending = Math.max(0, afterReturn - adminFee) + values.contribution;
+    const contributions = years * values.contribution;
+    const totalDeposited = values.starting + contributions;
+    const growth = ending - totalDeposited;
+    if (![ending, contributions, totalDeposited, growth].every(Number.isFinite)) return { ready: false, errors: [{ field: 'growth-returnRate', message: 'These numbers produce a balance too large to calculate. Try smaller amounts or a lower return.' }] };
+    if ([10, 20, 30].includes(years)) horizons.push({ years, contributions, totalDeposited, growth, ending, totalAdminFees });
+  }
+  return { ready: true, errors: [], netReturn, firstYearAdminFee, adminRate: values.adminRate, adminFlatFee: values.adminFlatFee, adminUncapped: values.adminUncapped, adminCap: values.adminCap, starting: values.starting, horizons };
+}
+

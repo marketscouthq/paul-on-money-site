@@ -1,76 +1,176 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light">
-<title>PPO vs. HDHP/HSA calculator | Paul On Money</title><meta name="description" content="Compare an employer PPO and high-deductible health plan with an HSA using your premiums, deductible, coinsurance, covered-care estimate, and bill timing.">
-<link rel="canonical" href="https://paulonmoney.com/tools/health-plan-comparison/"><link rel="stylesheet" href="/site.css"><link rel="stylesheet" href="/calculator.css"><script defer src="/chat-config.js"></script><script defer src="/chat.js"></script><script type="module" src="/calculator-app.mjs"></script>  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>PPO vs. HDHP/HSA calculator | Paul On Money</title>
+  <meta name="description" content="Compare an employer PPO and high-deductible health plan with an HSA using your premiums, plan-approved in-network care, HSA deposits, and bill timing.">
+  <link rel="canonical" href="https://paulonmoney.com/tools/health-plan-comparison/">
+  <link rel="stylesheet" href="/site.css">
+  <link rel="stylesheet" href="/calculator.css">
+  <script type="module" src="/calculator-app.mjs"></script>
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 </head>
-<body data-page-id="health-plan-comparison" data-page-label="PPO vs. HDHP/HSA comparison tool"><a class="skip" href="#main">Skip to content</a><div class="shell">
-<header class="topbar"><div class="topbar-inner"><a class="wordmark" href="/" aria-label="Paul On Money home">Paul On <em>Money</em></a><nav class="nav" aria-label="Main navigation"><a href="/articles/">Watch + read</a><a href="/tools/" aria-current="page">Tools</a><a href="/about/">About</a></nav></div></header>
-<main id="main" class="calculator-page"><div class="page-head"><div class="breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/tools/">Tools</a><span aria-hidden="true">/</span><span>Health plans</span></div><span class="status">Free · entries stay in this browser</span></div>
-<header class="tool-intro"><div class="tool-hero-art"><div><p class="eyebrow">Work benefits · 2027 HSA limits</p><h1>Compare the cost.<br><span class="marker">Then check the cash.</span></h1><p class="lede">Compare two health plans over a year, then check whether enough money could be available when one bill is due.</p><p class="privacy-line">Your entries are not sent or saved. The AI assistant does not receive calculator values.</p></div><figure><img src="/assets/health-plan-cover.png" alt="Portrait-free Paul On Money design sample about comparing a high-deductible plan and a PPO"><figcaption>Health-plan comparison · no published video is connected</figcaption></figure></div></header>
-<form id="calculator" novalidate autocomplete="off">
-<section class="calc-step" aria-labelledby="plan-heading"><p class="step-index">01</p><h2 id="plan-heading">Enter the two plans</h2><input id="network" type="hidden" value="in"><div class="fields fields-two">
-<label for="tier">Who needs coverage?<select id="tier"><option value="">Choose coverage</option><option value="employee_only">Just me</option><option value="spouse">Me and my spouse</option><option value="children">Me and my children</option><option value="family">My family</option></select></label></div>
-<p class="helper">Use amounts from your benefits guide. Plan A is the PPO. Plan B is the high-deductible health plan (HDHP) with an HSA.</p>
-<div class="plan-cards"><fieldset><legend>Plan A · PPO</legend>
-<label for="A-monthly">Monthly premium <span>USD</span><input id="A-monthly" type="number" min="0" step="any" inputmode="decimal"></label>
-<label for="A-deductible">Deductible <span>USD</span><input id="A-deductible" type="number" min="0" step="any" inputmode="decimal"></label>
-<label for="A-coinsurance">Your coinsurance after deductible <span>%</span><input id="A-coinsurance" type="number" min="0" max="100" step="any" inputmode="decimal"></label>
-<label for="A-maximum">Out-of-pocket maximum <span>USD</span><input id="A-maximum" type="number" min="0" step="any" inputmode="decimal"></label></fieldset>
-<fieldset><legend>Plan B · HDHP/HSA</legend>
-<label for="B-monthly">Monthly premium <span>USD</span><input id="B-monthly" type="number" min="0" step="any" inputmode="decimal"></label>
-<label for="B-deductible">Deductible <span>USD</span><input id="B-deductible" type="number" min="0" step="any" inputmode="decimal"></label>
-<label for="B-coinsurance">Your coinsurance after deductible <span>%</span><input id="B-coinsurance" type="number" min="0" max="100" step="any" inputmode="decimal"></label>
-<label for="B-maximum">Out-of-pocket maximum <span>USD</span><input id="B-maximum" type="number" min="0" step="any" inputmode="decimal"></label>
-<label for="B-employer">Employer HSA contribution for the year <span>USD</span><input id="B-employer" type="number" min="0" step="any" inputmode="decimal"></label></fieldset></div></section>
-<section class="calc-step" aria-labelledby="care-heading"><p class="step-index">02</p><h2 id="care-heading">Estimate a year of covered care</h2>
-<label class="wide-field" for="allowed">Full plan-approved price of covered in-network care before insurance shares it <span>USD</span><input id="allowed" type="number" min="0" step="any" inputmode="decimal" aria-describedby="allowed-help"></label>
-<p id="allowed-help" class="helper">Use the in-network allowed amount before the cost is split between you and the plan. It is not your deductible and not the amount you owe. Leave it blank to compare premiums with $0 in covered care entered. Out-of-network care is excluded.</p></section>
-<details class="optional" id="hsa-details"><summary>Optional: add HSA deposits and tax assumptions</summary><p>Check HSA eligibility for the plan year and include employer deposits only once. Confirm partial-year eligibility, Medicare, spouse contribution sharing, and other HSA deposits separately.</p>
-<label class="checkbox" for="eligible"><input id="eligible" type="checkbox"> I confirmed I can contribute to an HSA for all of 2027.</label>
-<div class="fields fields-two" id="hsa-fields" hidden>
-<label for="payrollEmployee">My yearly HSA deposits through payroll <span>USD</span><input id="payrollEmployee" type="number" min="0" step="any" inputmode="decimal" value="0"></label>
-<label for="directEmployee">My yearly HSA deposits from my bank account <span>USD</span><input id="directEmployee" type="number" min="0" step="any" inputmode="decimal" value="0"></label>
-<label for="starting">HSA balance available at the start of the year <span>USD</span><input id="starting" type="number" min="0" step="any" inputmode="decimal" value="0"></label>
-<label for="catchUp">Additional age-55 contribution limit, if confirmed <span>USD</span><input id="catchUp" type="number" min="0" max="1000" step="any" inputmode="decimal" value="0"></label>
-<label class="checkbox field-span" for="catchUpEligible"><input id="catchUpEligible" type="checkbox"> I confirmed I qualify for the age-55 catch-up limit entered above.</label></div>
-<div id="tax-option" hidden><label class="checkbox" for="taxEnabled"><input id="taxEnabled" type="checkbox"> Include an optional estimate of tax savings on my own HSA deposits.</label>
-<div class="fields fields-three" id="tax-fields" hidden><label for="federal">Estimated federal income-tax rate <span>%</span><input id="federal" type="number" min="0" max="100" step="any" inputmode="decimal" value="0"></label>
-<label for="state">Estimated state income-tax rate <span>%</span><input id="state" type="number" min="0" max="100" step="any" inputmode="decimal" value="0"></label>
-<label for="payroll">Estimated payroll-tax rate on eligible paycheck deposits <span>%</span><input id="payroll" type="number" min="0" max="100" step="any" inputmode="decimal" value="0"></label></div></div>
-<p class="helper">A tax estimate depends on filing status, income, state, plan, and payroll treatment. Confirm eligibility and current tax rules with the IRS and your plan documents.</p></details>
-<details class="optional" id="bill-details"><summary>Optional: check whether one bill could be paid when due</summary><p>Keep this separate from the annual estimate. Count only HSA money and other savings available by the due date. Leave out deposits arriving later and emergency savings you want to protect.</p>
-<label class="checkbox" for="billEnabled"><input id="billEnabled" type="checkbox"> Check one bill using money available by its due date.</label>
-<div class="fields fields-two" id="bill-fields" hidden>
-<label for="billDate">Bill due date in 2027<input id="billDate" type="date" min="2027-01-01" max="2027-12-31"></label>
-<label for="bill">Amount you would owe under Plan B <span>USD</span><input id="bill" type="number" min="0" step="any" inputmode="decimal"></label>
-<label for="bill-qualified">Amount that meets IRS rules for HSA payment <span>USD</span><input id="bill-qualified" type="number" min="0" step="any" inputmode="decimal"></label>
-<label for="bill-planned">Amount you plan to pay from the HSA <span>USD</span><input id="bill-planned" type="number" min="0" step="any" inputmode="decimal"></label>
-<label for="bill-available">HSA money available by the due date <span>USD</span><input id="bill-available" type="number" min="0" step="any" inputmode="decimal"></label>
-<label for="bill-outsideCash">Other savings you could use by then <span>USD</span><input id="bill-outsideCash" type="number" min="0" step="any" inputmode="decimal" value="0"></label></div></details>
-<div id="errors" class="error-summary" tabindex="-1" role="alert" hidden></div>
-<button class="button calculate-button" type="submit">Compare these plans <span aria-hidden="true">→</span></button><button class="reset-button" type="reset">Clear numbers</button>
-<p class="helper">Nothing is sent. The calculator runs in this browser and does not save your entries.</p>
-</form>
-<section class="result" aria-labelledby="result-heading" aria-live="polite"><p class="eyebrow">Your estimate</p><h2 id="result-heading">Compare the year</h2><p id="result-empty">Enter the plan numbers and care estimate, then choose “Compare these plans.”</p>
-<div id="result-output" hidden><p class="result-summary" id="comparison"></p><div class="result-cards"><div><span>Plan A · PPO estimated yearly cost</span><strong id="cost-A"></strong></div><div><span>Plan B · HDHP/HSA estimated yearly cost</span><strong id="cost-B"></strong></div></div><p id="premium-difference"></p><p id="hsa-summary"></p><p id="tax-summary"></p>
-<details><summary>How the estimate is calculated</summary><p>The estimate adds 12 months of premiums and your share of the entered covered-care cost. It then subtracts the entered employer HSA contribution and, when enabled, your estimated HSA tax benefit. This is a simplified deductible and coinsurance calculation, not an enrollment recommendation.</p><p id="warning"></p></details>
-<div id="bill-result" class="bill-result" hidden><h3>Bill timing check</h3><p id="bill-summary"></p></div></div></section>
-<figure class="comparison-figure"><img src="/assets/comparison-diagram.svg" alt="Diagram showing yearly premiums, then a comparison of the deductible, coinsurance, and out-of-pocket maximum for two plans, followed by a separate HSA eligibility and timing check"><figcaption><strong>How to read the comparison:</strong> premiums and covered-care costs are different pieces. The HSA eligibility, deposit timing, and qualified expenses are separate checks, not automatic discounts.</figcaption></figure>
-<section class="sources"><h2>Limits, assumptions, and sources</h2><div><p>For 2027, federal HSA contribution limits are $4,500 for self-only coverage and $9,000 for family coverage, including employer deposits. A qualifying person age 55 or older may have a separate catch-up contribution. Check current IRS rules and your plan. The limit changes over time.</p>
-<p>Source: <a href="https://www.irs.gov/pub/irs-drop/rp-26-24.pdf" target="_blank" rel="noopener noreferrer">IRS Revenue Procedure 2026-24</a>, published June 15, 2026; checked October 16, 2026.</p>
-<p>This tool uses the amounts you enter. It does not account for every plan rule, copay, prescription, out-of-network amount, noncovered bill, family-member deductible, investment growth, account fee, tax situation, or eligibility exception. For family coverage it treats the family as one total. Check your benefits guide, IRS guidance, and payroll treatment.</p>
-<p class="disclaimer">Educational information only, not financial, tax, legal, or medical advice.</p></div></section>
-</main>
-<footer class="foot"><div class="foot-inner"><p class="disclaimer">Educational information only, not financial, tax, legal, or medical advice. Check current rules and your own documents before making a decision.</p><p><a href="/tools/">All tools</a> · <a href="/about/">About</a></p></div></footer><section class="chat-entry" aria-label="Ask about this page">
-  <div><p class="chat-kicker">Follow the page you are reading</p><h2>Question about this page?</h2><p>Open the clearly labeled AI assistant. It is not connected in this preview.</p></div>
-  <button class="chat-open" type="button" data-chat-open aria-haspopup="dialog">Ask Paul On Money <em>AI</em> <span aria-hidden="true">↗</span></button>
-</section>
-<dialog class="chat-dialog" data-chat-dialog aria-labelledby="chat-title" aria-describedby="chat-disabled-note">
-  <div class="chat-panel">
-    <header class="chat-head"><span class="chat-avatar" aria-hidden="true">?</span><div><h2 id="chat-title">Ask Paul On Money <span style="color:var(--sun)">AI</span></h2><p>AI assistant · not connected</p></div><button class="chat-close" type="button" data-chat-close aria-label="Close chat">×</button></header>
-    <div class="chat-context"><strong>Current page</strong> · <span data-chat-context>Paul On Money</span></div>
-    <p class="chat-disabled" id="chat-disabled-note"><strong>The assistant is off in this preview.</strong> It will only be enabled after its public-source search, data handling, and costs are reviewed. No question is collected or sent. Calculator entries never enter this chat.</p>
-    <form class="chat-compose"><label class="sr-only" for="chat-question">Your question</label><input id="chat-question" type="text" placeholder="AI assistant is unavailable" disabled><button type="button" disabled>Send</button><p class="chat-foot">This dialog is a design interaction only. It does not provide answers, sources, or citations.</p></form>
+<body data-page-id="health-plan-comparison" data-page-label="PPO vs. HDHP/HSA comparison tool">
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="shell">
+    <header class="topbar"><div class="topbar-inner">
+      <a class="wordmark" href="/" aria-label="Paul On Money home">Paul On <em>Money</em></a>
+      <nav class="nav" aria-label="Main navigation"><a href="/articles/">Watch + read</a><a href="/tools/" aria-current="page">Tools</a><a href="/about/">About</a></nav>
+    </div></header>
+    <main id="main" class="calculator-page">
+      <div class="page-head"><div class="breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/tools/">Tools</a><span aria-hidden="true">/</span><span>Health plans</span></div><span class="status">Free · runs in your browser</span></div>
+      <header class="tool-intro"><div class="tool-hero-art">
+        <div><p class="eyebrow">Work benefits · 2027 HSA limits</p><h1>Compare the cost.<br><span class="marker">Then check the cash.</span></h1><p class="lede">Compare two health plans over a year, then explore HSA tax assumptions, bill timing, and a separate long-term balance illustration.</p>
+          <p class="privacy-line">Calculator math runs in this browser. The calculator code does not send your entries to our server or write them to browser storage.</p>
+        </div>
+        <figure><img src="/assets/health-plan-cover.png" alt="Illustration of a person weighing the costs of a high-deductible health plan and a PPO"><figcaption>PPO or HDHP? Compare the whole plan.</figcaption></figure>
+      </div></header>
+
+      <button id="try-example" class="button example-button" type="button">Try a fictional example <span aria-hidden="true">↗</span></button>
+      <p id="example-status" class="example-callout" role="status" aria-live="polite" hidden>Fictional example loaded. These amounts are made up, not your plan. Edit any number to use your own assumptions, or choose Clear numbers to start over.</p>
+
+      <form id="calculator" novalidate autocomplete="off">
+        <section class="calc-step" aria-labelledby="plan-heading">
+          <p class="step-index">01</p><h2 id="plan-heading">Enter the two plans</h2>
+          <p class="helper global-guide">Use 2027 calendar-year U.S. dollars, except premiums (per month) and rates (percent). A blank means unknown and cannot be calculated; enter 0 only when you know the amount is zero. This estimate includes covered in-network care only. For family coverage it combines everyone into one total—check how your plan applies each person's deductible.</p>
+          <input id="network" type="hidden" value="in">
+          <div class="fields fields-two">
+            <label for="tier">Who needs coverage?
+              <select id="tier" aria-describedby="tier-help"><option value="">Choose coverage</option><option value="employee_only">Just me</option><option value="spouse">Me and my spouse</option><option value="children">Me and my children</option><option value="family">My family</option></select>
+              <small class="field-help" id="tier-help">Choose the coverage tier shown in your benefits enrollment page. This affects the HSA contribution limit; family care is modeled as a combined total.</small>
+            </label>
+          </div>
+          <p class="helper">Plan A is the PPO. Plan B is the high-deductible health plan (HDHP) with an HSA.</p>
+          <div class="plan-cards">
+            <fieldset><legend>Plan A · PPO</legend>
+              <label for="A-monthly">Monthly premium <span>USD / month</span><input id="A-monthly" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 250" aria-describedby="A-monthly-help"><small class="field-help" id="A-monthly-help">Your share for one month, not the full premium. Find it in the benefits guide or paycheck portal; turn a per-paycheck deduction into a yearly total, then divide by 12.</small></label>
+              <label for="A-deductible">Annual deductible <span>USD / year</span><input id="A-deductible" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 1,500" aria-describedby="A-deductible-help"><small class="field-help" id="A-deductible-help">Find the in-network individual or family amount in the Summary of Benefits and Coverage (SBC). This is the plan-year amount before this estimate applies coinsurance.</small></label>
+              <label for="A-coinsurance">Your coinsurance after deductible <span>%</span><input id="A-coinsurance" type="number" min="0" max="100" step="any" inputmode="decimal" placeholder="e.g., 20" aria-describedby="A-coinsurance-help"><small class="field-help" id="A-coinsurance-help">Your share after the deductible, from the in-network SBC. Enter 20 for 20%; this simple estimate does not include separate copays or service-specific rules.</small></label>
+              <label for="A-maximum">Annual in-network out-of-pocket maximum <span>USD / year</span><input id="A-maximum" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 5,000" aria-describedby="A-maximum-help"><small class="field-help" id="A-maximum-help">Find the in-network limit in the SBC. It generally excludes premiums and some noncovered or out-of-network bills; confirm the plan's rules.</small></label>
+            </fieldset>
+            <fieldset><legend>Plan B · HDHP/HSA</legend>
+              <label for="B-monthly">Monthly premium <span>USD / month</span><input id="B-monthly" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 150" aria-describedby="B-monthly-help"><small class="field-help" id="B-monthly-help">Your share for one month, not the full premium. Find it in the benefits guide or paycheck portal; turn a per-paycheck deduction into a yearly total, then divide by 12.</small></label>
+              <label for="B-deductible">Annual deductible <span>USD / year</span><input id="B-deductible" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 3,000" aria-describedby="B-deductible-help"><small class="field-help" id="B-deductible-help">Find the in-network individual or family amount in the Summary of Benefits and Coverage (SBC). This is the plan-year amount before this estimate applies coinsurance.</small></label>
+              <label for="B-coinsurance">Your coinsurance after deductible <span>%</span><input id="B-coinsurance" type="number" min="0" max="100" step="any" inputmode="decimal" placeholder="e.g., 20" aria-describedby="B-coinsurance-help"><small class="field-help" id="B-coinsurance-help">Your share after the deductible, from the in-network SBC. Enter 20 for 20%; this simple estimate does not include separate copays or service-specific rules.</small></label>
+              <label for="B-maximum">Annual in-network out-of-pocket maximum <span>USD / year</span><input id="B-maximum" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 6,000" aria-describedby="B-maximum-help"><small class="field-help" id="B-maximum-help">Find the in-network limit in the SBC. It generally excludes premiums and some noncovered or out-of-network bills; confirm the plan's rules.</small></label>
+              <label for="B-employer">Employer HSA contribution for the year <span>USD / year</span><input id="B-employer" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 1,000" aria-describedby="B-employer-help"><small class="field-help" id="B-employer-help">Use only the employer's confirmed 2027 deposit from your benefits guide or HSA schedule. This is separate from your own payroll deductions and bank transfers.</small></label>
+            </fieldset>
+          </div>
+        </section>
+
+        <section class="calc-step" aria-labelledby="care-heading">
+          <p class="step-index">02</p><h2 id="care-heading">Estimate a year of covered care</h2>
+          <label class="wide-field" for="allowed">Full plan-approved price of covered in-network care before insurance shares it <span>USD / year</span><input id="allowed" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 5,000" aria-describedby="allowed-help"></label>
+          <small id="allowed-help" class="field-help">Use the allowed amount before your share is calculated, from an insurer estimator or claim/EOB. This is not a sticker charge, deductible, or amount you owe. Estimate covered in-network care for everyone on the selected tier; enter 0 only if you are modeling no covered care.</small>
+        </section>
+
+        <details class="optional" id="hsa-details"><summary>Optional: add your own HSA deposits and tax assumptions</summary>
+          <p>Employer HSA money and your own deposits are separate. Your deposits remain your money; this comparison does not count them as another medical expense.</p>
+          <label class="checkbox" for="eligible"><input id="eligible" type="checkbox" aria-describedby="eligible-help"> I confirmed I can contribute to an HSA for all of 2027.</label>
+          <small id="eligible-help" class="field-help">Check the plan and IRS rules. An HDHP label alone is not enough; other coverage, Medicare, dependent status, and eligibility by month can matter. This tool handles full-year eligibility only.</small>
+          <div class="fields fields-two" id="hsa-fields" hidden>
+            <label for="payrollEmployee">My yearly HSA deposits through payroll <span>USD / year</span><input id="payrollEmployee" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 2,000" aria-describedby="payrollEmployee-help"><small class="field-help" id="payrollEmployee-help">Your own paycheck HSA deposits for calendar year 2027 from your benefits election/payroll portal. Do not include monthly insurance premiums or employer deposits.</small></label>
+            <label for="directEmployee">My yearly HSA deposits from my bank account <span>USD / year</span><input id="directEmployee" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 500" aria-describedby="directEmployee-help"><small class="field-help" id="directEmployee-help">Your own planned direct transfers for calendar year 2027, separate from payroll and employer money. Use the HSA account records or your planned amount.</small></label>
+            <label for="starting">HSA balance available at the start of the year <span>USD</span><input id="starting" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 750" aria-describedby="starting-help"><small class="field-help" id="starting-help">Use the balance available at the start of 2027 from your HSA provider. This is already-held money, not a new contribution.</small></label>
+            <label for="catchUp">Additional age-55 contribution limit, if confirmed <span>USD / year</span><input id="catchUp" type="number" min="0" max="1000" step="any" inputmode="decimal" placeholder="e.g., 1,000 or 0" aria-describedby="catchUp-help"><small class="field-help" id="catchUp-help">This is extra contribution room, not a deposit. Check current IRS rules and your eligibility; enter 0 if it does not apply.</small></label>
+            <label class="checkbox field-span" for="catchUpEligible"><input id="catchUpEligible" type="checkbox" aria-describedby="catchUpEligible-help"> I confirmed I qualify for the age-55 catch-up limit entered above.</label>
+            <small id="catchUpEligible-help" class="field-help field-span">Check the HSA owner's age and current IRS rules before counting the additional limit.</small>
+          </div>
+          <div id="tax-option" hidden>
+            <label class="checkbox" for="taxEnabled"><input id="taxEnabled" type="checkbox" aria-describedby="taxEnabled-help"> Include an optional estimate of tax savings on my own HSA deposits.</label>
+            <small id="taxEnabled-help" class="field-help">Turn this on only if you have reasonable estimates for the rates below. It is separate from, and does not duplicate, the employer contribution.</small>
+            <div class="fields fields-three" id="tax-fields" hidden>
+              <label for="federal">Estimated federal marginal income-tax rate <span>%</span><input id="federal" type="number" min="0" max="100" step="any" inputmode="decimal" placeholder="e.g., 22" aria-describedby="federal-help"><small class="field-help" id="federal-help">Use a planning estimate based on taxable income and filing status, not paycheck withholding. Check current IRS brackets or ask a tax professional.</small></label>
+              <label for="state">Estimated state income-tax rate saved with an HSA <span>%</span><input id="state" type="number" min="0" max="100" step="any" inputmode="decimal" placeholder="e.g., 0 or 5" aria-describedby="state-help"><small class="field-help" id="state-help">State treatment varies. Check your state's tax department or preparer; enter 0 only if no state benefit applies.</small></label>
+              <label for="payroll">Estimated payroll-tax rate on eligible paycheck deposits <span>%</span><input id="payroll" type="number" min="0" max="100" step="any" inputmode="decimal" placeholder="e.g., 7.65" aria-describedby="payroll-help"><small class="field-help" id="payroll-help">Ask payroll whether your HSA paycheck deposits avoid Social Security/Medicare tax and which rate applies. This rate is used only on payroll deposits.</small></label>
+            </div>
+          </div>
+          <p class="helper">The estimate uses the rates you enter. Actual tax treatment depends on your situation and may differ; leave it off if uncertain.</p>
+        </details>
+
+        <details class="optional" id="bill-details"><summary>Optional: check whether one bill could be paid when due</summary>
+          <p>This is a cash-timing check, separate from the annual estimate. Count only money available by the bill's due date.</p>
+          <label class="checkbox" for="billEnabled"><input id="billEnabled" type="checkbox" aria-describedby="billEnabled-help"> Check one bill using money available by its due date.</label>
+          <small id="billEnabled-help" class="field-help">Use the bill after insurance has processed it. This check does not change the annual care estimate.</small>
+          <div class="fields fields-two" id="bill-fields" hidden>
+            <label for="billDate">Bill due date in 2027<input id="billDate" type="date" min="2027-01-01" max="2027-12-31" aria-describedby="billDate-help"><small class="field-help" id="billDate-help">Use the due date shown on the statement for a bill incurred in 2027.</small></label>
+            <label for="bill">Amount you would owe under Plan B <span>USD</span><input id="bill" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 1,900" aria-describedby="bill-help"><small class="field-help" id="bill-help">Use your amount due after insurance from the EOB or provider statement, not the original sticker charge.</small></label>
+            <label for="bill-qualified">Amount of this bill eligible for HSA payment <span>USD</span><input id="bill-qualified" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 1,900 or 0" aria-describedby="bill-qualified-help"><small class="field-help" id="bill-qualified-help">Use only expenses that meet current IRS qualified-medical-expense rules, incurred after the HSA was established; check IRS Publication 969.</small></label>
+            <label for="bill-planned">Amount you plan to pay from the HSA <span>USD</span><input id="bill-planned" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 1,000" aria-describedby="bill-planned-help"><small class="field-help" id="bill-planned-help">Your planned HSA payment for this bill. It cannot exceed the bill, eligible amount, or funds available by the due date.</small></label>
+            <label for="bill-available">HSA money available by the due date <span>USD</span><input id="bill-available" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 1,250" aria-describedby="bill-available-help"><small class="field-help" id="bill-available-help">Use the HSA provider's current balance plus deposits confirmed to arrive by that date. Leave out later deposits.</small></label>
+            <label for="bill-outsideCash">Other savings available by then <span>USD</span><input id="bill-outsideCash" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 500 or 0" aria-describedby="bill-outsideCash-help"><small class="field-help" id="bill-outsideCash-help">Count only cash you could use by the due date, excluding emergency money you want to keep protected.</small></label>
+          </div>
+        </details>
+
+        <details class="optional" id="growth-details"><summary>Optional: model an HSA balance over 10, 20, and 30 years</summary>
+          <p>This is a separate illustration, not part of the yearly plan-cost estimate. Use money you could actually leave invested after paying medical costs. This field does not check contribution limits: compare total deposits from all sources with current IRS limits and your eligibility; future limits and eligibility can change. Starting balance is already in the account and is not a new contribution.</p>
+          <div class="fields fields-three" id="growth-fields">
+            <label for="growth-starting">Starting HSA money already invested <span>USD</span><input id="growth-starting" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 0" aria-describedby="growth-starting-help"><small class="field-help" id="growth-starting-help">Use the amount currently invested, not cash you need for near-term bills. Check the HSA provider's account view.</small></label>
+            <label for="growth-contribution">New HSA money left invested each year <span>USD / year</span><input id="growth-contribution" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 1,000" aria-describedby="growth-contribution-help"><small class="field-help" id="growth-contribution-help">Estimate deposits from your benefits election/payroll portal and employer HSA policy, then subtract money spent on care. Do not count the same dollar more than once.</small></label>
+            <label for="growth-returnRate">Assumed yearly investment return before fund fees <span>%</span><input id="growth-returnRate" type="number" step="any" inputmode="decimal" placeholder="e.g., 5 or -5" aria-describedby="growth-returnRate-help"><small class="field-help" id="growth-returnRate-help">Choose a hypothetical rate for exploration, not a forecast. Published fund returns may already include fund expenses; check before subtracting them again. Investments can lose value; use a negative number to explore a loss case.</small></label>
+            <label for="growth-fundExpenseRate">Fund expense ratio per year <span>%</span><input id="growth-fundExpenseRate" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 0.05" aria-describedby="growth-fundExpenseRate-help"><small class="field-help" id="growth-fundExpenseRate-help">Find the fund's annual expense ratio in the HSA investment menu or fund prospectus.</small></label>
+            <label for="growth-adminRate">Percentage account fee per year <span>%</span><input id="growth-adminRate" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 0.25" aria-describedby="growth-adminRate-help"><small class="field-help" id="growth-adminRate-help">Check the provider's investment-fee schedule. Enter 0 only if you know there is no percentage-based fee. This is separate from the fund expense ratio.</small></label>
+            <label for="growth-adminCap">Annual cap on the percentage fee <span>USD / year</span><input id="growth-adminCap" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 100" aria-describedby="growth-adminCap-help"><small class="field-help" id="growth-adminCap-help">Enter the percentage fee's annual dollar cap from the provider schedule. If there is no cap, select the box below instead of entering 0.</small></label>
+            <label class="checkbox" for="growth-adminUncapped"><input id="growth-adminUncapped" type="checkbox" aria-describedby="growth-adminUncapped-help"> The percentage fee has no annual dollar cap</label><small class="field-help" id="growth-adminUncapped-help">Select only when the provider schedule confirms there is no annual cap. This makes the cap field unnecessary.</small>
+            <label for="growth-adminFlatFee">Fixed account fee per year <span>USD / year</span><input id="growth-adminFlatFee" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 60" aria-describedby="growth-adminFlatFee-help"><small class="field-help" id="growth-adminFlatFee-help">Find fixed fees in the provider's fee schedule. For a monthly fee, multiply by 12; enter 0 only if there is no fixed account fee.</small></label>
+          </div>
+          <button id="project-growth" class="button secondary-button" type="button">Update HSA projection</button>
+          <p class="helper">This model repeats the entered annual amount unchanged, assumes deposits arrive at year-end, keeps the return constant, and assumes no withdrawals or inflation. It assumes account fees come from the invested balance and counts only fees the balance can cover; fees you pay separately from cash are not modeled. It does not assume you keep the same health plan or remain eligible for contributions for 30 years. Use your benefits guide and current IRS rules.</p>
+        </details>
+
+        <div id="errors" class="error-summary" tabindex="-1" role="alert" hidden></div>
+        <button class="button calculate-button" type="submit">Compare these plans <span aria-hidden="true">→</span></button>
+        <button class="reset-button" type="reset">Clear numbers</button>
+        <p class="helper privacy-line">The calculator uses your entries only for the calculations shown here. It makes no network requests with those values and writes no calculator entries to browser storage.</p>
+      </form>
+
+      <section class="result" aria-labelledby="result-heading">
+        <p class="eyebrow">Your estimate</p><h2 id="result-heading" tabindex="-1">Compare the year</h2>
+        <p id="result-empty">Enter the plan numbers and care estimate, then choose “Compare these plans.”</p>
+        <div id="result-output" hidden>
+          <p class="result-summary" id="comparison" role="status" aria-live="polite" aria-atomic="true"></p><p class="decision-checks">Before choosing, check that the doctors and facilities you use are in-network, how prescriptions and visits are covered, whether you could handle the bill before savings build up, and the HSA's eligibility and investment fees. The lower cost estimate alone does not decide plan fit.</p>
+          <div class="result-cards"><div><span>Plan A · PPO estimated net yearly cost</span><strong id="cost-A"></strong></div><div><span>Plan B · HDHP/HSA estimated net yearly cost</span><strong id="cost-B"></strong></div></div>
+          <section class="visual-result" aria-labelledby="annual-chart-heading"><h3 id="annual-chart-heading">Annual cost comparison</h3><p>Both bars use the same zero-centered scale; values below zero remain visible as negative.</p><div id="annual-chart" class="chart-bars centered-chart" role="img" aria-label="Annual net cost comparison will appear after calculation"></div><p id="annual-chart-scale" class="chart-scale"></p>
+            <div class="table-scroll"><table><caption>What is included in each yearly estimate</caption><thead><tr><th scope="col">Amount</th><th scope="col">Plan A · PPO</th><th scope="col">Plan B · HDHP/HSA</th></tr></thead><tbody>
+              <tr><th scope="row">12 monthly premiums</th><td id="premium-A"></td><td id="premium-B"></td></tr>
+              <tr><th scope="row">Estimated covered-care share</th><td id="care-A"></td><td id="care-B"></td></tr>
+              <tr><th scope="row">Employer HSA contribution (subtracted once)</th><td id="employer-A"></td><td id="employer-B"></td></tr>
+              <tr><th scope="row">Estimated tax savings on your deposits (subtracted once)</th><td id="tax-A"></td><td id="tax-B"></td></tr>
+              <tr class="emphasis"><th scope="row">Estimated net yearly cost</th><td id="net-A"></td><td id="net-B"></td></tr>
+            </tbody></table></div>
+            <p class="chart-caption">Your own HSA deposits are not treated as a medical expense. Employer HSA money and any tax estimate are shown as separate offsets; do not add those same amounts again.</p>
+          </section>
+          <p id="premium-difference"></p><p id="hsa-summary"></p><p id="tax-summary"></p>
+          <section class="visual-result tax-result" aria-labelledby="tax-chart-heading"><h3 id="tax-chart-heading">Tax estimate breakdown</h3><p id="tax-chart-empty">No tax estimate is included. Open the optional tax assumptions and enter rates if you want to explore this.</p><div id="tax-chart-wrap" hidden><p>The estimate shown here is already included once in Plan B above. It is not an extra discount to add again.</p><div id="tax-chart" class="chart-bars" role="img" aria-label="Estimated tax savings by tax category will appear here"></div><p id="tax-chart-scale" class="chart-scale"></p><div class="table-scroll"><table><caption>Estimated savings from the rates you entered</caption><thead><tr><th scope="col">Tax category</th><th scope="col">Estimated amount</th></tr></thead><tbody><tr><th scope="row">Federal income tax</th><td id="tax-federal"></td></tr><tr><th scope="row">State income tax</th><td id="tax-state"></td></tr><tr><th scope="row">Payroll tax on eligible paycheck deposits</th><td id="tax-payroll"></td></tr><tr class="emphasis"><th scope="row">Estimated total</th><td id="tax-total"></td></tr></tbody></table></div></div></section>
+          <p id="warning" class="result-warning"></p>
+          <details><summary>How the estimate is calculated</summary><p>Estimated net yearly cost = 12 monthly premiums + your estimated share of entered covered care − employer HSA deposits − (only when enabled) estimated tax savings on your own HSA deposits. The cost share uses the entered deductible, coinsurance, and out-of-pocket maximum. It is a simplified estimate, not an enrollment recommendation.</p><p>The HSA projection below is separate. It does not change the yearly result, and its ending balance is not another discount to subtract from that result.</p></details>
+          <div id="bill-result" class="bill-result" hidden><h3>Bill timing check</h3><p id="bill-summary"></p></div>
+
+          <section id="growth-result" class="visual-result growth-result" aria-labelledby="growth-chart-heading" hidden>
+            <h3 id="growth-chart-heading" tabindex="-1">HSA balance illustration · 10, 20, and 30 years</h3>
+            <p id="growth-net"></p>
+            <div id="growth-chart" class="chart-bars growth-chart" role="img" aria-label="HSA principal and investment gain or loss at three time horizons"></div><p id="growth-chart-scale" class="chart-scale"></p>
+            <div class="table-scroll"><table><caption>Estimated HSA balance under the entered assumptions</caption><thead><tr><th scope="col">Time</th><th scope="col">Deposited principal</th><th scope="col">Investment gain or loss after fees</th><th scope="col">Estimated account fees actually collected</th><th scope="col">Estimated ending balance</th></tr></thead><tbody id="growth-rows"></tbody></table></div>
+            <p class="chart-caption">This is a hypothetical HSA account balance, not a comparison against investing with a PPO. You may be able to save or invest with either plan. Do not add this balance to the yearly estimate or subtract it as a plan discount. Returns can be negative; future limits, eligibility, fees, and care costs can change.</p>
+          </section>
+          <div id="growth-errors" class="error-summary" tabindex="-1" role="alert" hidden></div>
+        </div>
+      </section>
+
+      <p class="chart-guide">This visual is a reading guide, not another input or step: it separates yearly premiums from in-network cost sharing, then shows why HSA eligibility and deposit timing need their own checks.</p>
+      <figure class="comparison-figure"><img src="/assets/comparison-diagram.svg" alt="A diagram of yearly premiums, deductible and coinsurance, out-of-pocket limits, and separate HSA eligibility and timing checks"><figcaption><strong>How to read the comparison:</strong> the visual explains the order of the questions. It does not repeat your result or ask you to enter another value.</figcaption></figure>
+
+      <section class="sources"><h2>Limits, assumptions, and sources</h2><div>
+        <p>For 2027, federal HSA contribution limits are $4,500 for self-only coverage and $9,000 for family coverage, including employer deposits. A qualifying person age 55 or older may have a separate catch-up contribution. Check current IRS rules and your plan. The limit changes over time.</p>
+        <p>Source: <a href="https://www.irs.gov/pub/irs-drop/rp-26-24.pdf" target="_blank" rel="noopener noreferrer">IRS Revenue Procedure 2026-24</a>, published June 15, 2026; checked October 17, 2026.</p>
+        <p>HSA contribution eligibility, qualified medical expenses, and the tax treatment of account earnings depend on IRS rules. See current <a href="https://www.irs.gov/publications/p969" target="_blank" rel="noopener noreferrer">IRS Publication 969</a>; checked October 17, 2026. The investment illustration is a hypothetical calculation, not a forecast or promise.</p>
+        <p>This tool does not account for every plan rule, copay, prescription, out-of-network amount, noncovered bill, family-member deductible, investment return, account fee, tax situation, or eligibility exception. For family coverage it treats the family as one total. Check your benefits guide, IRS guidance, and payroll treatment.</p>
+        <p class="disclaimer">Educational information only, not financial, tax, legal, or medical advice.</p>
+      </div></section>
+    </main>
+    <footer class="foot"><div class="foot-inner"><p class="disclaimer">Educational information only, not financial, tax, legal, or medical advice. Check current rules and your own documents before making a decision.</p><p><a href="/tools/">All tools</a> · <a href="/about/">About</a></p></div></footer>
   </div>
-</dialog>
-</div></body></html>
+</body>
+</html>
