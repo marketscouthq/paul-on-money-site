@@ -1,0 +1,773 @@
+# Paul On Money — Full Published Content
+
+> Generated from the canonical public build. This file covers every page route in the current sitemap and excludes unpublished article records.
+
+## Paul On Money — Money questions. Plain answers.
+
+Canonical URL: https://paulonmoney.com/
+
+Description: Plain-English money explainers, practical tools, and public sources to check for yourself.
+
+Money questions. Plain answers. Paul On Money
+
+Start with the choice in front of you
+
+### What money decision is on your table?
+
+One real question at a time. Understand the mechanism, see what could change it, and know what to check next.
+
+Image: Illustration of a person weighing the costs of a high-deductible health plan and a PPO
+
+PPO or HDHP? Compare the whole plan
+
+Question
+path 01
+
+Work benefits · free tool
+
+#### Two plan names. One decision to check.
+
+Compare yearly premiums and your share of covered care, then check the plan details that a simple estimate cannot see.
+[Open the PPO vs. HDHP/HSA comparison →](https://paulonmoney.com/tools/health-plan-comparison/)
+
+1
+Understand the mechanism See premiums, deductible, coinsurance, and the cap.
+
+2
+Check what could change it Plan rules and deposit timing still matter.
+
+3
+Try your own numbers Blank inputs. Nothing is saved.
+
+#### A money answer should leave you with a next check.
+
+That means showing how the choice works, what can change the result, and which source or plan detail to verify. No magic verdict. Your decision stays yours.
+
+[Browse money articles and videos](https://paulonmoney.com/articles/)[Compare work health plans](https://paulonmoney.com/tools/health-plan-comparison/)
+
+Educational information only, not financial, tax, legal, or medical advice. Check current rules and your own documents before making a decision.
+
+© 2026 Paul On Money · [About this site](https://paulonmoney.com/about/)
+
+Google Analytics uses its standard pseudonymous browser identifier to measure page views and broad article, video, and tool actions. Calculator entries, results, entered text, and health or financial details are not sent.
+
+---
+
+## About | Paul On Money
+
+Canonical URL: https://paulonmoney.com/about/
+
+Description: What Paul On Money covers and how its explainers use public sources.
+
+[Home](https://paulonmoney.com/) / About
+Paul On Money
+
+Money questions. Plain answers.
+
+### Make the moving parts easier to see.
+
+Paul On Money explains how a money choice works, gives a useful example, shows the tradeoff that matters, and leaves you with the next thing to check.
+
+01
+#### Explain the mechanism
+
+Show what changes the outcome in plain language.
+
+02
+#### Make assumptions visible
+
+Use examples and tools that show what is included and what is left out.
+
+03
+#### Leave the decision with you
+
+Offer checks and tradeoffs, not a personal recommendation.
+
+How we explain money
+
+#### Illustrations make ideas concrete.
+
+Visuals help connect the moving parts, from a company's competitive position to the cash left after upkeep.
+
+Image: Illustration of a castle behind a moat, showing how a company's competitive advantage can protect it
+
+Economic moat
+
+Image: Diagram showing operating cash flow minus upkeep spending equals free cash flow
+
+Free cash flow
+
+The site does not tell you what to buy or sell, promise an outcome, or replace your own documents and professional advice. Free tool inputs stay in your browser and are not stored.
+
+#### Evidence and privacy
+
+Material facts should link to public sources and carry a check date when the rule or number can change. Company statements, public rules, and analysis stay distinct. If a number or source is missing, it should not be invented.
+
+Educational information only, not financial, tax, legal, or medical advice.
+
+© 2026 Paul On Money · [Home](https://paulonmoney.com/)
+
+Google Analytics uses its standard pseudonymous browser identifier to measure page views and broad article, video, and tool actions. Calculator entries, results, entered text, and health or financial details are not sent.
+
+---
+
+## Blog Articles | Paul On Money
+
+Canonical URL: https://paulonmoney.com/articles/
+
+Description: Public-source companion articles and videos from Paul On Money.
+
+[Home](https://paulonmoney.com/) / Blog Articles
+Plain language · public sources
+
+Companion articles and videos
+
+### Useful answers, with receipts.
+
+Each article pairs with a public video when available and links to the sources behind its material claims.
+
+Health plan costs · 15 min read Published October 17, 2026
+
+#### [HDHP vs PPO: Is the Cheaper Plan Really Cheaper?](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/)
+
+Compare monthly premiums, covered-care costs, employer HSA money, tax rules, and bill timing before choosing a health plan.
+[Read the full guide →](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/)
+
+Educational information only, not financial, tax, legal, or medical advice.
+
+© 2026 Paul On Money · [About](https://paulonmoney.com/about/)
+
+Google Analytics uses its standard pseudonymous browser identifier to measure page views and broad article, video, and tool actions. Calculator entries, results, entered text, and health or financial details are not sent.
+
+---
+
+## Free money tools | Paul On Money
+
+Canonical URL: https://paulonmoney.com/tools/
+
+Description: Free educational money tools from Paul On Money.
+
+[Home](https://paulonmoney.com/) / Tools
+Free and browser-based
+
+Free tools
+
+### Make the tradeoff visible.
+
+Tools start blank. Enter only what you need; calculations run in this browser and do not save your entries.
+
+Health insurance · 2027 HSA limits
+#### PPO vs. HDHP/HSA calculator
+
+Estimate yearly premiums and covered-care costs, then check one bill against the HSA and other savings available by its due date.
+[Open calculator →](https://paulonmoney.com/tools/health-plan-comparison/)
+
+This estimate uses a simplified deductible and coinsurance model. Your plan documents control; the tool is not an enrollment recommendation.
+
+Educational information only, not financial, tax, legal, or medical advice.
+
+© 2026 Paul On Money · [About](https://paulonmoney.com/about/)
+
+Google Analytics uses its standard pseudonymous browser identifier to measure page views and broad article, video, and tool actions. Calculator entries, results, entered text, and health or financial details are not sent.
+
+---
+
+## PPO vs. HDHP/HSA calculator | Paul On Money
+
+Canonical URL: https://paulonmoney.com/tools/health-plan-comparison/
+
+Description: Compare an employer PPO and high-deductible health plan with an HSA using your premiums, plan-approved in-network care, HSA deposits, and bill timing.
+
+[Home](https://paulonmoney.com/) / [Tools](https://paulonmoney.com/tools/) / Health plans
+Free · runs in your browser
+
+Work benefits · 2027 HSA limits
+
+### Compare the cost. Then check the cash.
+
+Compare two health plans over a year, then explore HSA tax assumptions, bill timing, and a separate long-term balance illustration.
+
+Calculator math runs in this browser. Google Analytics uses its standard pseudonymous browser identifier for page visits and broad tool actions; it never receives your calculator entries, assumptions, or results.
+
+Image: Illustration of a person weighing the costs of a high-deductible health plan and a PPO
+
+PPO or HDHP? Compare the whole plan.
+
+Try a fictional example ↗
+
+Fictional example loaded. These amounts are made up, not your plan. Edit any number to use your own assumptions, or choose Clear numbers to start over.
+
+01
+
+#### Enter the two plans
+
+Use 2027 calendar-year U.S. dollars, except premiums (per month) and rates (percent). A blank means unknown and cannot be calculated; enter 0 only when you know the amount is zero. This estimate includes covered in-network care only. For family coverage it combines everyone into one total—check how your plan applies each person's deductible.
+
+Who needs coverage?
+
+Choose coverage
+
+Just me
+
+Me and my spouse
+
+Me and my children
+
+My family
+
+Choose the coverage tier shown in your benefits enrollment page. This affects the HSA contribution limit; family care is modeled as a combined total.
+
+Use the video’s 2027 sample plan numbers
+
+Choose “Just me” above to enable this single-person, in-network sample. It is the video’s 2027 sample, not your plan or a recommendation. Loading it replaces both plans’ monthly premiums, deductibles, coinsurance, and out-of-pocket maximums, plus Plan B’s employer HSA contribution. It leaves your coverage choice, care estimate, personal HSA and tax entries, bill entries, and growth assumptions unchanged. Check your own benefits documents before relying on plan terms.
+
+Plan A is the PPO. Plan B is the high-deductible health plan (HDHP) with an HSA.
+
+Plan A · PPO
+
+Monthly premium USD / month Your share for one month, not the full premium. Find it in the benefits guide or paycheck portal; turn a per-paycheck deduction into a yearly total, then divide by 12.
+
+Annual deductible USD / year Find the in-network individual or family amount in the Summary of Benefits and Coverage (SBC). This is the plan-year amount before this estimate applies coinsurance.
+
+Your coinsurance after deductible % Your share after the deductible, from the in-network SBC. Enter 20 for 20%; this simple estimate does not include separate copays or service-specific rules.
+
+Annual in-network out-of-pocket maximum USD / year Find the in-network limit in the SBC. It generally excludes premiums and some noncovered or out-of-network bills; confirm the plan's rules.
+
+Plan B · HDHP/HSA
+
+Monthly premium USD / month Your share for one month, not the full premium. Find it in the benefits guide or paycheck portal; turn a per-paycheck deduction into a yearly total, then divide by 12.
+
+Annual deductible USD / year Find the in-network individual or family amount in the Summary of Benefits and Coverage (SBC). This is the plan-year amount before this estimate applies coinsurance.
+
+Your coinsurance after deductible % Your share after the deductible, from the in-network SBC. Enter 20 for 20%; this simple estimate does not include separate copays or service-specific rules.
+
+Annual in-network out-of-pocket maximum USD / year Find the in-network limit in the SBC. It generally excludes premiums and some noncovered or out-of-network bills; confirm the plan's rules.
+
+Employer HSA contribution for the year USD / year Use only the employer's confirmed 2027 deposit from your benefits guide or HSA schedule. This is separate from your own payroll deductions and bank transfers.
+
+02
+
+#### Estimate a year of covered care
+
+Full plan-approved price of covered in-network care before insurance shares it USD / year
+
+Use the allowed amount before your share is calculated, from an insurer estimator or claim/EOB. This is not a sticker charge, deductible, or amount you owe. Estimate covered in-network care for everyone on the selected tier; enter 0 only if you are modeling no covered care.
+
+Light-use year · $1,000
+
+Medium-use year · $5,000
+
+High-cost year · $11,400
+
+Try all three to see how the comparison changes. These are sample yearly totals, not prices for specific visits or a prediction of your health costs.
+
+Optional: add your own HSA deposits and tax assumptions
+
+Employer HSA money and your own deposits are separate. Your deposits remain your money; this comparison does not count them as another medical expense.
+
+I confirmed I can contribute to an HSA for all of 2027.
+
+Check the plan and IRS rules. An HDHP label alone is not enough; other coverage, Medicare, dependent status, and eligibility by month can matter. This tool handles full-year eligibility only.
+
+My yearly HSA deposits through payroll USD / year Your own paycheck HSA deposits for calendar year 2027 from your benefits election/payroll portal. Do not include monthly insurance premiums or employer deposits.
+
+My yearly HSA deposits from my bank account USD / year Your own planned direct transfers for calendar year 2027, separate from payroll and employer money. Use the HSA account records or your planned amount.
+
+HSA balance available at the start of the year USD Use the balance available at the start of 2027 from your HSA provider. This is already-held money, not a new contribution.
+
+Additional age-55 contribution limit, if confirmed USD / year This is extra contribution room, not a deposit. Check current IRS rules and your eligibility; enter 0 if it does not apply.
+
+I confirmed I qualify for the age-55 catch-up limit entered above.
+
+Check the HSA owner's age and current IRS rules before counting the additional limit.
+
+Include an optional estimate of tax savings on my own HSA deposits.
+
+Turn this on only if you have reasonable estimates for the rates below. It is separate from, and does not duplicate, the employer contribution.
+
+Estimated federal marginal income-tax rate % Use a planning estimate based on taxable income and filing status, not paycheck withholding. Check current IRS brackets or ask a tax professional.
+
+Estimated state income-tax rate saved with an HSA % State treatment varies. Check your state's tax department or preparer; enter 0 only if no state benefit applies.
+
+Estimated payroll-tax rate on eligible paycheck deposits % Ask payroll whether your HSA paycheck deposits avoid Social Security/Medicare tax and which rate applies. This rate is used only on payroll deposits.
+
+The estimate uses the rates you enter. Actual tax treatment depends on your situation and may differ; leave it off if uncertain.
+
+Optional: check whether one bill could be paid when due
+
+This is a cash-timing check, separate from the annual estimate. Count only money available by the bill's due date.
+
+Check one bill using money available by its due date.
+
+Use the bill after insurance has processed it. This check does not change the annual care estimate.
+
+Bill due date in 2027 Use the due date shown on the statement for a bill incurred in 2027.
+
+Amount you would owe under Plan B USD Use your amount due after insurance from the EOB or provider statement, not the original sticker charge.
+
+Amount of this bill eligible for HSA payment USD Use only expenses that meet current IRS qualified-medical-expense rules, incurred after the HSA was established; check IRS Publication 969.
+
+Amount you plan to pay from the HSA USD Your planned HSA payment for this bill. It cannot exceed the bill, eligible amount, or funds available by the due date.
+
+HSA money available by the due date USD Use the HSA provider's current balance plus deposits confirmed to arrive by that date. Leave out later deposits.
+
+Other savings available by then USD Count only cash you could use by the due date, excluding emergency money you want to keep protected.
+
+Optional: model an HSA balance over 10, 20, and 30 years
+
+This is a separate illustration, not part of the yearly plan-cost estimate. Use money you could actually leave invested after paying medical costs. This field does not check contribution limits: compare total deposits from all sources with current IRS limits and your eligibility; future limits and eligibility can change. Starting balance is already in the account and is not a new contribution.
+
+Starting HSA money already invested USD Use the amount currently invested, not cash you need for near-term bills. Check the HSA provider's account view.
+
+New HSA money left invested each year USD / year Estimate deposits from your benefits election/payroll portal and employer HSA policy, then subtract money spent on care. Do not count the same dollar more than once.
+
+Assumed yearly investment return before fund fees % Choose a hypothetical rate for exploration, not a forecast. Published fund returns may already include fund expenses; check before subtracting them again. Investments can lose value; use a negative number to explore a loss case.
+
+5% · lower-return example
+
+7% · Investor.gov reference
+
+10% · historical-market reference
+
+These are illustrative assumptions, not recommended or guaranteed returns. You can enter another rate, including a negative return.
+
+Fund expense ratio per year % Find the fund's annual expense ratio in the HSA investment menu or fund prospectus.
+
+Percentage account fee per year % Check the provider's investment-fee schedule. Enter 0 only if you know there is no percentage-based fee. This is separate from the fund expense ratio.
+
+Annual cap on the percentage fee USD / year Enter the percentage fee's annual dollar cap from the provider schedule. If there is no cap, select the box below instead of entering 0.
+
+The percentage fee has no annual dollar cap
+Select only when the provider schedule confirms there is no annual cap. This makes the cap field unnecessary.
+
+Fixed account fee per year USD / year Find fixed fees in the provider's fee schedule. For a monthly fee, multiply by 12; enter 0 only if there is no fixed account fee.
+
+Update HSA projection
+
+This model repeats the entered annual amount unchanged, assumes deposits arrive at year-end, keeps the return constant, and assumes no withdrawals or inflation. It assumes account fees come from the invested balance and counts only fees the balance can cover; fees you pay separately from cash are not modeled. It does not assume you keep the same health plan or remain eligible for contributions for 30 years. Use your benefits guide and current IRS rules.
+
+Compare these plans →
+
+Clear numbers
+
+The calculator uses your entries only for the calculations shown here. It makes no network requests with those values and writes no calculator entries to browser storage.
+
+Your estimate
+
+#### Compare the year
+
+Enter the plan numbers and care estimate, then choose “Compare these plans.”
+
+Before choosing, check that the doctors and facilities you use are in-network, how prescriptions and visits are covered, whether you could handle the bill before savings build up, and the HSA's eligibility and investment fees. The lower cost estimate alone does not decide plan fit.
+
+Plan A · PPO estimated net yearly cost
+
+Plan B · HDHP/HSA estimated net yearly cost
+
+##### Annual cost comparison
+
+Both bars use the same zero-centered scale; values below zero remain visible as negative.
+
+Table: What is included in each yearly estimate
+| Amount | Plan A · PPO | Plan B · HDHP/HSA |
+| 12 monthly premiums | | |
+| Estimated covered-care share | | |
+| Employer HSA contribution (subtracted once) | | |
+| Estimated tax savings on your deposits (subtracted once) | | |
+| Estimated net yearly cost | | |
+
+Your own HSA deposits are not treated as a medical expense. Employer HSA money and any tax estimate are shown as separate offsets; do not add those same amounts again.
+
+##### Tax estimate breakdown
+
+No tax estimate is included. Open the optional tax assumptions and enter rates if you want to explore this.
+
+The estimate shown here is already included once in Plan B above. It is not an extra discount to add again.
+
+Table: Estimated savings from the rates you entered
+| Tax category | Estimated amount |
+| Federal income tax | |
+| State income tax | |
+| Payroll tax on eligible paycheck deposits | |
+| Estimated total | |
+
+How the estimate is calculated
+
+Estimated net yearly cost = 12 monthly premiums + your estimated share of entered covered care − employer HSA deposits − (only when enabled) estimated tax savings on your own HSA deposits. The cost share uses the entered deductible, coinsurance, and out-of-pocket maximum. It is a simplified estimate, not an enrollment recommendation.
+
+The HSA projection below is separate. It does not change the yearly result, and its ending balance is not another discount to subtract from that result.
+
+##### Bill timing check
+
+##### HSA balance illustration · 10, 20, and 30 years
+
+Table: Estimated HSA balance under the entered assumptions
+| Time | Deposited principal | Investment gain or loss after fees | Estimated account fees actually collected | Estimated ending balance |
+
+This is a hypothetical HSA account balance, not a comparison against investing with a PPO. You may be able to save or invest with either plan. Do not add this balance to the yearly estimate or subtract it as a plan discount. Returns can be negative; future limits, eligibility, fees, and care costs can change.
+
+This visual is a reading guide, not another input or step: it separates yearly premiums from in-network cost sharing, then shows why HSA eligibility and deposit timing need their own checks.
+
+Image: A diagram of yearly premiums, deductible and coinsurance, out-of-pocket limits, and separate HSA eligibility and timing checks
+
+How to read the comparison: the visual explains the order of the questions. It does not repeat your result or ask you to enter another value.
+
+Paul On Money · published video
+
+#### Watch the walkthrough
+
+HDHP vs PPO: Is the Cheaper Plan Really Cheaper?
+
+The player loads when you choose Play. Your calculator entries are not shared with the video.
+
+Play video
+
+If the player does not load, [watch the video on YouTube ↗](https://www.youtube.com/watch?v=ee2jsxj9HxE).
+
+#### Limits, assumptions, and sources
+
+For 2027, federal HSA contribution limits are $4,500 for self-only coverage and $9,000 for family coverage, including employer deposits. A qualifying person age 55 or older may have a separate catch-up contribution. Check current IRS rules and your plan. The limit changes over time.
+
+Source: [IRS Revenue Procedure 2026-24](https://www.irs.gov/pub/irs-drop/rp-26-24.pdf), published June 15, 2026; checked October 17, 2026.
+
+HSA contribution eligibility, qualified medical expenses, and the tax treatment of account earnings depend on IRS rules. See current [IRS Publication 969](https://www.irs.gov/publications/p969); checked October 17, 2026. The investment illustration is a hypothetical calculation, not a forecast or promise.
+
+This tool does not account for every plan rule, copay, prescription, out-of-network amount, noncovered bill, family-member deductible, investment return, account fee, tax situation, or eligibility exception. For family coverage it treats the family as one total. Check your benefits guide, IRS guidance, and payroll treatment.
+
+Educational information only, not financial, tax, legal, or medical advice.
+
+Educational information only, not financial, tax, legal, or medical advice. Check current rules and your own documents before making a decision.
+
+[All tools](https://paulonmoney.com/tools/) · [About](https://paulonmoney.com/about/)
+
+Google Analytics uses its standard pseudonymous browser identifier to measure page views and broad article, video, and tool actions. Calculator entries, results, entered text, and health or financial details are not sent.
+
+---
+
+## HDHP vs PPO: Is the Cheaper Plan Really Cheaper? | Paul On Money
+
+Canonical URL: https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/
+
+Description: Compare monthly premiums, covered-care costs, employer HSA money, tax rules, and bill timing before choosing a health plan.
+
+[Home](https://paulonmoney.com/) / [Blog Articles](https://paulonmoney.com/articles/) / Article
+Published 2026-10-17
+
+Paul On Money · health-plan guide
+
+### HDHP vs PPO: Is the Cheaper Plan Really Cheaper?
+
+Compare monthly premiums, covered-care costs, employer HSA money, tax rules, and bill timing before choosing a health plan.
+
+Image: Paper-cut illustration of two health-plan folders, a medical bill, and an HSA reserve bridging the gap.
+
+The tradeoff is often a smaller premium against more of the early bill.
+
+#### Watch the video
+
+▶
+
+Uploaded October 16, 2026 · Runtime 15:48. Select play to load the YouTube player. You can also [open the video directly on YouTube](https://www.youtube.com/watch?v=ee2jsxj9HxE).
+
+Plain answer
+
+A low monthly premium does not always mean a low-cost year. Add your premiums and your share of covered care, then subtract employer HSA money once. Check possible tax savings separately. Also ask whether HSA money will be available before a large bill is due. PPO describes a provider network; HDHP and HSA have separate plan and tax rules.
+
+#### PPO and HDHP describe different things
+
+A PPO is a type of provider network. A network is the doctors, hospitals, and pharmacies that have contracts with a health plan. PPOs usually cost less when you use in-network providers. They may also cover out-of-network care, but you can pay more for it. A high-deductible health plan (HDHP) is a plan that meets federal rules for deductibles and yearly limits. A health savings account (HSA) is a separate account for certain medical costs. You can put money into an HSA only if you meet separate IRS rules. These labels describe different things: PPO describes network access; HDHP describes plan rules; HSA describes an account. A PPO can be an HDHP, but neither label tells you every cost or whether you can contribute to an HSA. [\[3\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-ppo) [\[4\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-hdhp) [\[8\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-2027)
+
+For months beginning after December 31, 2025, some individual-market plans sold through an ACA Exchange and labeled Bronze or Catastrophic are treated as HDHPs for HSA purposes. This special rule does not cover every plan with those labels. You still must meet the other IRS rules before you can contribute to an HSA. [\[10\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-pl-119-21) [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969)
+
+Compare the exact plans your employer offers. Your specialist may be out of network, a prescription may have different rules, or a large first bill may be hard to pay. HealthCare.gov says to compare the premium with the deductible and other costs you may pay. The plan with the lowest premium is not always the cheapest for the year. [\[1\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-healthcare-total) [\[3\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-ppo)
+
+#### Compare the yearly cost—and when bills arrive
+
+Start with the premium: your share of the insurance price. You pay it even in a year when you do not get care. Multiply the monthly amount by 12. Then add your share of covered care. For many services, the deductible is the amount you pay before the plan starts sharing costs; your plan may cover some care sooner. A copay is a set dollar amount for a service. Coinsurance is the percentage you pay for certain services after the deductible. The in-network out-of-pocket maximum is a cap on what you pay in a plan year for covered in-network care. It usually does not include premiums, out-of-network care, or services the plan does not cover. Check your plan because rules can differ by service. [\[1\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-healthcare-total) [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969) [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+
+A useful comparison
+Annual premiums + your share of covered care − employer HSA deposit − optional estimate of tax savings on your own eligible HSA deposits
+
+Do not count your own HSA deposit as a medical cost; the money stays yours until you spend it. The calculator’s optional tax estimate applies the federal and state rates you enter to your own eligible deposits; it applies a payroll-tax rate only to eligible paycheck deposits. Keep payroll and direct deposits separate. If your take-home-pay or tax estimate already reflects a benefit, do not subtract that same benefit again. The calculator does not guess your tax rate or state rules. Employer deposits count toward the yearly HSA limit. Count the deposit once as account money, not again as your personal tax saving. [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969) [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+
+Image: Timeline showing a medical bill due date, HSA money already available, and later deposits arriving after the due date. Other available cash can cover a gap, but a later HSA deposit cannot pay that bill on time.
+
+A plan can cost less over the year and still leave a cash gap before later HSA deposits arrive.
+
+##### Check bill timing in four steps
+
+- At enrollment, find out when your employer will deposit money into the HSA.
+
+- After care, check your insurer’s explanation of benefits (EOB) to see your share after the claim is processed.
+
+- By the bill’s due date, compare the amount due with HSA money and other cash you can use by then.
+
+- Count later deposits only when they arrive. They add to the balance later; they cannot pay a bill already due.
+
+#### A made-up 2027 example, worked step by step
+
+##### Paul’s figures are separate from this example
+
+In the published video, Paul says his family premium is about $300 a month for the PPO and about $90 a month for the high-deductible plan. Those are the only amounts in this article we call Paul’s. The plan terms and care amounts that follow are made up to show the math. They are not Paul’s benefits, a market average, or a recommendation. [\[11\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-video)
+
+This worked example uses the calculator’s “Me and my spouse” tier. Enter the plan terms below by hand to repeat the totals; the “Try a fictional example” button loads different numbers. The terms here are made up, not a quote from an employer. We assume HSA eligibility, $500 from the employer, covered in-network care, no personal HSA deposits, and no tax-savings estimate. The calculator combines family care into one total and does not model each person’s deductible. Real family plans may have separate person-level rules, so check the Summary of Benefits and Coverage. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator) [\[1\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-healthcare-total)
+
+Table: Fictional 2027 plan inputs to enter manually; “Me and my spouse” tier, covered in-network care [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+| Plan | Monthly premium | Deductible | Coinsurance after deductible | In-network out-of-pocket limit | Employer HSA deposit |
+| PPO example | $199 | $1,400 | 15% | $7,000 | $0 |
+| HDHP/HSA example | $49 | $3,800 | 20% | $7,600 | $500 |
+
+Compare $3,000 of allowed in-network care as a lower-use year, $15,000 as a middle-use example, and $40,000 as a high-cost test. The allowed amount is the price the plan uses for a covered service before you and the insurer split the cost. It can be lower than the provider’s listed price. These amounts are examples, not predictions. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator) [\[1\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-healthcare-total)
+
+This simple model uses one deductible, one coinsurance rate, and one in-network out-of-pocket limit for covered care. It leaves out separate visit or prescription copays, special rules for some services, out-of-network care, and bills the plan does not cover. It also does not model a separate deductible for each family member. Check the exact Summary of Benefits and Coverage and plan documents. The calculator helps compare numbers; it cannot replace the plan documents. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator) [\[2\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-sbc) [\[5\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-healthcare-oop)
+
+Yearly total = 12 months of premiums + your share of covered care − employer HSA money. All bars use the same dollar scale. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+
+PPO HDHP/HSA
+
+##### $3,000 allowed in-network care
+
+**PPO:** $4,028
+
+**HDHP/HSA:** $3,088
+
+##### $9,000 allowed in-network care
+
+**PPO:** $4,928
+
+**HDHP/HSA:** $4,928
+
+##### $15,000 allowed in-network care
+
+**PPO:** $5,828
+
+**HDHP/HSA:** $6,128
+
+##### $27,400 allowed in-network care
+
+**PPO:** $7,688
+
+**HDHP/HSA:** $7,688
+
+##### $40,000 allowed in-network care
+
+**PPO:** $9,388
+
+**HDHP/HSA:** $7,688
+
+Table: Cost checkpoints from the calculator; yearly total includes 12 premiums + your share of care − the employer HSA deposit [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+| Allowed in-network care | PPO yearly total | HDHP/HSA yearly total | Lower total in this example |
+| $3,000 | $4,028 | $3,088 | HDHP/HSA by $940 |
+| $9,000 | $4,928 | $4,928 | Tie |
+| $15,000 | $5,828 | $6,128 | PPO by $300 |
+| $27,400 | $7,688 | $7,688 | Tie |
+| $40,000 | $9,388 | $7,688 | HDHP/HSA by $1,700 |
+
+Table: How the three examples add up; all amounts are fictional 2027 dollars [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+| Care amount and plan | 12 months of premiums | Your share for care | Employer HSA money | Yearly total |
+| $3,000 care · PPO | $2,388 | $1,640 | $0 | $4,028 |
+| $3,000 care · HDHP/HSA | $588 | $3,000 | $500 | $3,088 |
+| $15,000 care · PPO | $2,388 | $3,440 | $0 | $5,828 |
+| $15,000 care · HDHP/HSA | $588 | $6,040 | $500 | $6,128 |
+| $40,000 care · PPO | $2,388 | $7,000 | $0 | $9,388 |
+| $40,000 care · HDHP/HSA | $588 | $7,600 | $500 | $7,688 |
+
+With these plan numbers, the totals tie at $9,000 and $27,400 of allowed care. Those are the break-even points: the totals are equal there. Between them, the PPO costs less in this model; at $15,000 of care, it is $300 lower. Actual copays, covered services, provider rates, family deductibles, and when employer money arrives can change these points—or remove them. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator) [\[2\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-sbc) [\[3\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-ppo)
+
+At $3,000 of allowed care, you pay the PPO deductible of $1,400, then 15% of the remaining $1,600. That 15% is $240, so your care share is $1,640. Add $2,388 in yearly premiums: the PPO total is $4,028. The HDHP deductible is $3,800, so you pay the full $3,000 of care in this example. Add $588 in premiums and subtract the employer’s $500 HSA deposit once: the total is $3,088. The HDHP/HSA total is $940 lower. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+
+At $40,000 of allowed care, both plans reach their in-network out-of-pocket limit. The PPO total is $7,000 in care costs plus $2,388 in premiums, or $9,388. The HDHP/HSA total is $7,600 in care costs plus $588 in premiums, minus the employer’s $500 deposit, or $7,688. In this high-cost test, the HDHP/HSA is $1,700 lower. These results come from these made-up premiums, cost rules, limits, and employer deposit. An HDHP will not always cost less. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator) [\[5\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-healthcare-oop)
+
+#### A lower yearly total can still leave an early cash gap
+
+The yearly table does not show when money arrives. In a separate made-up timing check, a $2,000 qualified medical bill is due, $1,000 is already in the HSA, and no other cash is set aside. The HSA can pay $1,000, leaving a $1,000 gap by the due date. This example is about timing. Do not add it to the medical costs in the yearly examples. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator) [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969)
+
+Before choosing an HDHP, check when the employer deposit arrives and when your payroll deposits start. Ask how much HSA money will be ready before your first large bill. An explanation of benefits (EOB) is the insurer’s statement showing how it processed a claim and what you may owe. A goal for how much to save this year is not the same as money already in the account. Do not count a future deposit toward a bill due today. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+
+- Find the employer’s HSA deposit schedule in the benefits guide or HSA enrollment materials.
+
+- Use the insurer’s explanation of benefits (EOB) to see how it calculated your share after a claim.
+
+- Keep enough easy-to-reach savings for the bills you may need to pay before HSA money arrives.
+
+[\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+
+#### When a PPO can be the better fit
+
+A PPO may fit better if its network includes the doctors and facilities you want, if its out-of-network rules matter to you, or if its visit and prescription costs fit your needs. Check the exact provider list and plan rules; the PPO label alone does not guarantee them. In the made-up example, the PPO is also $300 lower at $15,000 of covered in-network care. A higher premium pays for that plan’s network and cost-sharing rules. Whether that is worth it depends on your care and budget. [\[3\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-ppo) [\[1\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-healthcare-total) [\[5\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-healthcare-oop)
+
+The PPO may also be easier to budget if the HDHP’s early deductible would strain your cash savings, even when the HDHP has a lower yearly total in the example. The amount you might pay over the year and the cash you need by an early due date are different questions. Decide which trade-off matters more for you.
+
+#### Check HSA eligibility, limits, and withdrawal rules
+
+Having an HDHP does not automatically let you put money in an HSA. IRS rules also check your other health coverage, whether someone can claim you as a dependent, whether you are enrolled in Medicare, and which months you qualify. A spouse’s general-purpose health flexible spending account (FSA), an employer account for medical costs, may also affect your eligibility. Check your situation with your benefits team and current IRS guidance before treating a deposit as tax-advantaged. [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969)
+
+For 2027, the IRS has a limited rule for certain direct-primary-care arrangements. These are arrangements for access to primary care. The fee and other conditions matter, so check the 2027 IRS guidance if you use one. [\[8\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-2027)
+
+Table: HSA limits and HDHP thresholds by calendar year. These are not quotes for your employer plan. [\[7\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-2026) [\[8\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-2027)
+| Calendar year | Base HSA limit before catch-up · self-only | Base HSA limit before catch-up · family | Minimum deductible · self-only | Minimum deductible · family | Max covered out-of-pocket · self-only | Max covered out-of-pocket · family |
+| 2026 | $4,400 | $8,750 | $1,700 | $3,400 | $8,500 | $17,000 |
+| 2027 | $4,500 | $9,000 | $1,750 | $3,500 | $8,700 | $17,400 |
+
+The HSA contribution limit is per calendar year, even if your medical plan year starts on another date. If both spouses are individually eligible to contribute and either spouse has family HDHP coverage, they share one combined family limit; it is not a full family limit for each spouse. They can decide how to split it. Employer contributions count toward the shared limit. An eligible person age 55 or older at the end of the tax year may contribute an additional $1,000 to their own HSA. If both spouses qualify for a catch-up, each needs their own account. Partial-year rules can change the limit, so check current IRS instructions before you contribute. The HDHP deductible and out-of-pocket thresholds do not set the exact amounts in every employer plan. [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969) [\[7\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-2026) [\[8\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-2027)
+
+An HSA can have tax benefits when money goes in, while it stays in the account, and when you spend it on qualified care. Your own contributions may be deductible. Employer contributions are generally not counted as income. HSA earnings generally are not taxed while they stay in the account. Money used for qualified medical expenses is generally not taxed when you take it out. The result can depend on how the money was deposited and on state rules. Do not claim employer money as your own deduction or count it twice. Leave the calculator’s tax estimate off unless you can support the numbers you enter. [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969) [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+
+HSA money generally stays in your account from year to year. To take it out tax-free, the money must pay an IRS-qualified medical expense that happened after the HSA was established (opened). The expense must not already have been paid or reimbursed by insurance or another source, and you cannot claim the same expense as an itemized medical deduction. Keep the receipts. A withdrawal for another purpose is generally taxable and may face an extra tax before age 65, with some exceptions. At age 65 or older, the extra tax generally no longer applies, but regular income tax may still apply. Some HSA providers let you invest the balance. Investments can lose value, and fees can reduce returns. Keep money for near-term bills easy to reach. Growth is not guaranteed. [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969)
+
+#### Could an HSA balance grow over time?
+
+Some HSA providers let you invest money left in the account after bills are paid. Investment earnings may add to the balance, and later earnings can grow on earlier earnings. This is called compounding. Investments can also lose value. Keep enough money easy to reach for near-term bills before investing. Each provider sets its own fees and rules. [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969) [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+
+##### A simple projection, not a promise
+
+This separate example starts with $0. The account holder adds $1,000 at the end of each year. It assumes the investment earns 5% each year before a 0.05% fund fee. It assumes no separate HSA account fee, employer deposits, withdrawals, inflation adjustment, or tax savings. Each deposit must be allowed and fit within that year’s remaining HSA limit. The amounts are nominal dollars, which means they are not adjusted for inflation, and they are rounded to the nearest dollar. Real investments do not earn the same return every year and can lose money. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator) [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969) [\[7\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-2026) [\[8\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-2027)
+
+A simple example of how an HSA balance could change; exact rounded amounts are in the table below. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+
+Deposited HSA money Modeled gain after fund expense
+
+##### 10 years
+
+**Deposited:** $10,000
+
+**Modeled gain:** $2,549
+
+**Ending balance:** $12,549
+
+##### 20 years
+
+**Deposited:** $20,000
+
+**Modeled gain:** $12,892
+
+**Ending balance:** $32,892
+
+##### 30 years
+
+**Deposited:** $30,000
+
+**Modeled gain:** $35,871
+
+**Ending balance:** $65,871
+
+Table: Made-up projection: $1,000 added at each year-end, 5% assumed return before a 0.05% fund fee, and no separate HSA account fee [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+| Years | Total deposited | Modeled gain after fund fee | Ending balance |
+| 10 | $10,000 | $2,549 | $12,549 |
+| 20 | $20,000 | $12,892 | $32,892 |
+| 30 | $30,000 | $35,871 | $65,871 |
+
+The ending amount changes when the return assumption changes. With the same deposits and fund fee, a steady −2% gross return leaves about $22,576 after 30 years; a 0% return leaves $29,784; and a 5% return leaves $65,871. These are calculator examples, not forecasts. Real returns rise and fall rather than staying at one rate. At 0%, the fund fee makes the ending amount slightly lower than the $30,000 deposited. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+
+Table: 30-year examples with different assumed returns; all other inputs stay the same [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+| Assumed yearly return before fund fee | Ending balance |
+| −2% | $22,576 |
+| 0% | $29,784 |
+| 5% | $65,871 |
+
+##### Keep this growth example separate from yearly plan costs
+
+This example starts with $0 and includes no employer deposit, tax deduction, or other tax savings. Do not treat a possible future balance as a discount on this year’s plan cost. The earlier example subtracts its $500 employer HSA deposit once; this is a different example with different assumptions. Your contributions are your money. Investment returns are not guaranteed. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator) [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969)
+
+The IRS generally does not tax HSA earnings while they stay in the account. To take money out tax-free, it still must pay a qualified medical expense. Keep the receipts and records. Delaying a payment from the HSA may leave more money invested, but only consider that if you can comfortably pay the bill another way and keep the records. It is also okay to use the HSA for a qualified bill now. A PPO does not stop you from investing in other accounts; HSA rules are a separate question. [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969)
+
+Keep going with the calculator
+
+##### Try your own HSA growth assumptions
+
+Open the calculator and scroll to the HSA growth controls. Change the starting balance, yearly amount left invested, return assumption, fund fee, and account fees. Use the fees from your HSA provider. Keep the early-bill check separate from this long-term example. [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+
+[Open the health-plan comparison calculator →](https://paulonmoney.com/tools/health-plan-comparison/)
+
+#### Where to find each number
+
+- Your premium: find your share in the open-enrollment rate sheet, benefits website, or paycheck page. Use what you pay, not the full price of the plan. If you pay every paycheck, add the year’s payments and divide by 12.
+
+- Deductible, coinsurance, copays, and out-of-pocket maximum: check the Summary of Benefits and Coverage (SBC), plan certificate, or summary plan description. Look for in-network and self-only or family rules, including separate person-level deductibles.
+
+- Doctors, hospitals, and medicines: check the insurer’s current provider list and drug list for the exact plan name. A drug list is also called a formulary.
+
+- Expected care: use the insurer’s price estimator or a past explanation of benefits (EOB). The allowed amount is the plan’s price for a covered service, not always the provider’s listed price.
+
+- Employer HSA money and timing: check the written benefits guide, HSA materials, payroll election, and deposit dates. Keep employer deposits separate from your own money.
+
+- HSA eligibility and limits: check the current IRS Publication 969 and the IRS notice for the calendar year you will contribute. Check again when your coverage or Medicare status changes.
+
+[\[2\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-sbc) [\[1\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-healthcare-total) [\[5\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-healthcare-oop) [\[6\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-969) [\[8\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-irs-2027) [\[9\]](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/#source-calculator)
+
+#### A practical comparison checklist
+
+- Write down when coverage starts and whether your plan year matches the calendar year used for HSA limits.
+
+- Confirm what you pay for the premium and whether your doctors, hospitals, and prescriptions are in the plan’s network.
+
+- Copy the deductible, copays, coinsurance, and in-network and out-of-network limits from the exact plan documents.
+
+- Compare lower, middle, and high amounts of covered in-network care. Do not include uncovered or out-of-network bills in an in-network maximum.
+
+- Enter only employer HSA money you know you will receive. Count it once. Your own HSA deposits remain your money.
+
+- Check whether you can contribute to an HSA, the current yearly limit, and whether other coverage changes your eligibility.
+
+- Ask when HSA deposits arrive. Check whether HSA money already available, plus your own cash buffer, can cover an early bill.
+
+- Compare the yearly totals with the bill timing. Choose the trade-off that fits your providers, budget, and comfort with risk.
+
+Keep going with the calculator
+
+##### Run your own plan numbers
+
+Enter your premiums, deductible, coinsurance, covered-care estimate, and confirmed employer HSA deposits. Add a tax estimate only if you have a sound basis for it. Use the separate early-bill check to test whether money will be ready on time.
+
+[Open the health-plan comparison calculator →](https://paulonmoney.com/tools/health-plan-comparison/)
+
+##### The takeaway
+
+The cheaper plan is the one that fits your premiums, care, doctors, employer HSA money, tax eligibility, and bill timing—not the one with the friendliest label. Compare a lower-use year, a middle-use case, and a high-cost year. Then check whether you can pay an early bill before HSA money arrives.
+
+Evidence checked 2026-10-17
+
+#### Sources and notes
+
+- 1
+[HealthCare.gov: Your total costs for health care](https://www.healthcare.gov/choose-a-plan/your-total-costs/) Checked 2026-10-17
+
+- 2
+[Centers for Medicare & Medicaid Services: Summary of Benefits and Coverage](https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/indexsummarybenefitscoverage) Checked 2026-10-17
+
+- 3
+[HealthCare.gov: Preferred Provider Organization (PPO)](https://www.healthcare.gov/glossary/preferred-provider-organization-ppo/) Checked 2026-10-17
+
+- 4
+[HealthCare.gov: High Deductible Health Plan (HDHP)](https://www.healthcare.gov/glossary/high-deductible-health-plan/) Checked 2026-10-17
+
+- 5
+[HealthCare.gov: Out-of-pocket maximum/limit](https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/) Checked 2026-10-17
+
+- 6
+[IRS Publication 969 (2025): Health Savings Accounts and Other Tax-Favored Health Plans](https://www.irs.gov/publications/p969) Checked 2026-10-17
+
+- 7
+[IRS Revenue Procedure 2025-19: 2026 HSA limits](https://www.irs.gov/pub/irs-drop/rp-25-19.pdf) Checked 2026-10-17
+
+- 8
+[IRS Revenue Procedure 2026-24: 2027 HSA limits](https://www.irs.gov/pub/irs-drop/rp-26-24.pdf) Checked 2026-10-17
+
+- 9
+[Paul On Money: Health-plan comparison calculator and its public assumptions](https://paulonmoney.com/tools/health-plan-comparison/) Checked 2026-10-17
+
+- 10
+[U.S. Congress: Public Law 119-21, §71307 (Bronze and Catastrophic plans and HSAs)](https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf) Checked 2026-10-17
+
+- 11
+[Paul On Money: “HDHP vs PPO: Is the Cheaper Plan Really Cheaper?” (published video)](https://youtu.be/ee2jsxj9HxE) Checked 2026-10-17
+
+Tax thresholds are year-specific. Recheck IRS guidance for the calendar year you contribute and your own plan documents before enrolling.
+
+Educational information only, not financial, tax, legal, or medical advice.
+
+© 2026 Paul On Money
+
+Google Analytics uses its standard pseudonymous browser identifier to measure page views and broad article, video, and tool actions. Calculator entries, results, entered text, and health or financial details are not sent.
+
+---

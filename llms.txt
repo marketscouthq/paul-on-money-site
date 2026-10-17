@@ -1,0 +1,24 @@
+# Paul On Money
+
+> Plain-English money explainers, practical tools, and public sources to check for yourself. Educational information only; not financial, tax, legal, or medical advice.
+
+The full text below is generated from the same published pages and article allowlist as the site build.
+
+## Pages
+
+- [Paul On Money — Money questions. Plain answers.](https://paulonmoney.com/): Plain-English money explainers, practical tools, and public sources to check for yourself.
+- [About | Paul On Money](https://paulonmoney.com/about/): What Paul On Money covers and how its explainers use public sources.
+- [Blog Articles | Paul On Money](https://paulonmoney.com/articles/): Public-source companion articles and videos from Paul On Money.
+
+## Tools
+
+- [Free money tools | Paul On Money](https://paulonmoney.com/tools/): Free educational money tools from Paul On Money.
+- [PPO vs. HDHP/HSA calculator | Paul On Money](https://paulonmoney.com/tools/health-plan-comparison/): Compare an employer PPO and high-deductible health plan with an HSA using your premiums, plan-approved in-network care, HSA deposits, and bill timing.
+
+## Blog articles
+
+- [HDHP vs PPO: Is the Cheaper Plan Really Cheaper? | Paul On Money](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/): Compare monthly premiums, covered-care costs, employer HSA money, tax rules, and bill timing before choosing a health plan.
+
+## Full content
+
+- [llms-full.txt](https://paulonmoney.com/llms-full.txt): Readable text for every published route, including article source dates, citations, and page disclosures.

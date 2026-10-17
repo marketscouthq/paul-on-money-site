@@ -6,6 +6,7 @@ const money = amount => new Intl.NumberFormat('en-US', { style: 'currency', curr
 const value = id => $(id).value;
 const num = id => value(id);
 const rate = id => value(id) === '' ? '' : String(Number(value(id)) / 100);
+function trackCalculatorUse(action) { globalThis.POMAnalytics?.calculatorUse?.(action); }
 let exampleMode = false;
 let hasProjected = false;
 let hasCalculated = false;
@@ -198,7 +199,7 @@ function projectGrowth(focus = false) {
   const output = projectHsaGrowth(projectionInput());
   for (const id of ['growth-starting', 'growth-contribution', 'growth-returnRate', 'growth-fundExpenseRate', 'growth-adminRate', 'growth-adminFlatFee', 'growth-adminCap']) $(id).removeAttribute('aria-invalid');
   showGrowthErrors(output.errors, focus);
-  if (!output.ready) { $('growth-result').hidden = true; hasProjected = false; return; }
+  if (!output.ready) { $('growth-result').hidden = true; hasProjected = false; return false; }
   const returnPercent = new Intl.NumberFormat('en-US', { style: 'percent', minimumFractionDigits: 0, maximumFractionDigits: 2 }).format(output.netReturn);
   const feePercent = new Intl.NumberFormat('en-US', { style: 'percent', maximumFractionDigits: 2 });
   const capSummary = output.adminUncapped ? 'percentage account fee is uncapped' : `percentage account fee is capped at ${money(output.adminCap)} per year`;
@@ -222,6 +223,7 @@ function projectGrowth(focus = false) {
   $('growth-result').hidden = false;
   hasProjected = true;
   if (focus) $('growth-chart-heading').focus();
+  return true;
 }
 
 function setValue(id, next) { $(id).value = String(next); }
@@ -299,10 +301,21 @@ function loadFictionalExample() {
   projectGrowth(false);
 }
 
-form.addEventListener('submit', event => { event.preventDefault(); calculatePlan(true); });
+form.addEventListener('submit', event => {
+  event.preventDefault();
+  if (!calculatePlan(true)) return;
+  trackCalculatorUse('compare');
+  if ($('billEnabled').checked) trackCalculatorUse('bill_timing');
+});
 
-$('try-example').addEventListener('click', loadFictionalExample);
-$('load-video-plan-sample').addEventListener('click', loadVideoPlanSample);
+$('try-example').addEventListener('click', () => {
+  loadFictionalExample();
+  trackCalculatorUse('example_load');
+});
+$('load-video-plan-sample').addEventListener('click', () => {
+  loadVideoPlanSample();
+  if (videoSampleLoaded) trackCalculatorUse('video_sample_load');
+});
 for (const id of ['care-scenario-light', 'care-scenario-medium', 'care-scenario-high']) {
   $(id).addEventListener('click', () => {
     setValue('allowed', $(id).getAttribute('data-care-scenario'));
@@ -324,6 +337,7 @@ $('walkthrough-play').addEventListener('click', () => {
   if (player.children.length) return;
   const videoId = button.getAttribute('data-video-id');
   if (!/^[A-Za-z0-9_-]{11}$/.test(videoId || '')) return;
+  if (globalThis.POMAnalytics?.playVideo?.(button, { container: player, hideButton: true })) return;
   const title = button.getAttribute('data-video-title') || 'YouTube video';
   const iframe = document.createElement('iframe');
   iframe.setAttribute('title', `${title} video player`);
@@ -347,7 +361,9 @@ $('growth-adminUncapped').addEventListener('change', () => {
   $('growth-adminCap').disabled = $('growth-adminUncapped').checked;
   if (hasProjected) projectGrowth(false);
 });
-$('project-growth').addEventListener('click', () => projectGrowth(true));
+$('project-growth').addEventListener('click', () => {
+  if (projectGrowth(true)) trackCalculatorUse('hsa_projection');
+});
 form.addEventListener('input', event => {
   if (exampleMode) { exampleMode = false; $('example-status').hidden = true; }
   if (videoSampleLoaded && ['A-monthly', 'A-deductible', 'A-coinsurance', 'A-maximum', 'B-monthly', 'B-deductible', 'B-coinsurance', 'B-maximum', 'B-employer'].includes(event.target.id)) {

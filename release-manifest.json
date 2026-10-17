@@ -1,21 +1,31 @@
 {
   "schemaVersion": 1,
-  "treeSha256": "7d51962d9d62efb891bac002c4016589e4d0d7455cf58183956a79248cee87be",
+  "treeSha256": "5376b3e6e84cdc8c760c202520275106c467e1dba4e088d04e5ecdcf6fabf861",
   "files": [
     {
+      "path": "_headers",
+      "bytes": 178,
+      "sha256": "e6c993bd7d2a91213778a5e7a01719668d1f915a94bb7ee7f2977c623bb2383f"
+    },
+    {
       "path": "about/index.html",
-      "bytes": 3466,
-      "sha256": "5919d9f6e1bf8915505f79638eec3198ac013e5f108d90ec90bf98a57954b658"
+      "bytes": 5974,
+      "sha256": "a1c8cd232ce194065d06eab403e65911c05838bd1579f5c8a34c28fa9bf1f3fc"
+    },
+    {
+      "path": "analytics.mjs",
+      "bytes": 10801,
+      "sha256": "8910d92dfe8b3cb359d0c2b83269fe97b0908dcd801c7ab04a92a43a5c22159d"
     },
     {
       "path": "articles/hdhp-vs-ppo-cheaper-plan/index.html",
-      "bytes": 49078,
-      "sha256": "c0762333e727ce90e47eb29c205069d2a3ff9ffb296e09f093aff668b7f2f5ab"
+      "bytes": 51670,
+      "sha256": "1886fd30b1fcfc7c19e9e83b7a74f0541ce3622a291172ce4c9bab8ebe2efed1"
     },
     {
       "path": "articles/index.html",
-      "bytes": 2178,
-      "sha256": "6b54c4ca6a5bd241bcfd3f583d875bbf110ffc24f2cb3db92227ff1f27f25b64"
+      "bytes": 5452,
+      "sha256": "dac874d77b804c834b888dd93fe3ec3f54fc93bfacbadb391925c240fa83e62e"
     },
     {
       "path": "assets/bill-timing.svg",
@@ -84,8 +94,8 @@
     },
     {
       "path": "calculator-app.mjs",
-      "bytes": 22213,
-      "sha256": "4fdbaafc73c6a1b7a075706b36d023e28b11c4fdcd722dccfa21ab8a51dbc97a"
+      "bytes": 22725,
+      "sha256": "807c08c2fee6254176b8114ff3bd7bba0091750282a705dcccbf1fb0cb378faa"
     },
     {
       "path": "calculator-core.mjs",
@@ -99,8 +109,18 @@
     },
     {
       "path": "index.html",
-      "bytes": 3766,
-      "sha256": "6fb832033e3cae61ac7f45ad53d77d291e30546ece7bdeca807209727dd020a7"
+      "bytes": 6220,
+      "sha256": "7d931f26edb18154dcf9740369f7a1ad8e0f365e67bdbe4b200d8977afd4b877"
+    },
+    {
+      "path": "llms-full.txt",
+      "bytes": 52655,
+      "sha256": "3f4821ed057a31a1ac9d66bbd0f12a1574f0a67c63b596647d4503082fb7f400"
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 1576,
+      "sha256": "343c63c539f73d4d872d9309cbe4a066f07eb469a32da4adecd0665cf8de882e"
     },
     {
       "path": "robots.txt",
@@ -109,8 +129,8 @@
     },
     {
       "path": "site.css",
-      "bytes": 35818,
-      "sha256": "a18da504f3f4031211ff098eb0beba158e80619f596a7aa5601380cca3ca03b3"
+      "bytes": 37479,
+      "sha256": "15ac39ea79cad36b32ae51b73bb679d1d3864588a079fcc58e846f95b73496ca"
     },
     {
       "path": "sitemap.xml",
@@ -119,13 +139,13 @@
     },
     {
       "path": "tools/health-plan-comparison/index.html",
-      "bytes": 35039,
-      "sha256": "a92c0772a0852b36251787be452752817c82b96206fc5719e0a82c1ed601ec4c"
+      "bytes": 38758,
+      "sha256": "a9fe2596e9f5997780e0f3bdb2103665d94d494330077d9e0fae720baa74295a"
     },
     {
       "path": "tools/index.html",
-      "bytes": 2284,
-      "sha256": "f21b8615c8a5853f45d4a9d52f2be1a832872c919fe5d2230b10ca919b5a5ddf"
+      "bytes": 4626,
+      "sha256": "03ad4d9e7640b136d703e1936c02f1224c2b3dadb404b17316fa9b4a6bfeb8eb"
     }
   ]
 }
