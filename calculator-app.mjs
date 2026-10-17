@@ -239,6 +239,24 @@ function loadFictionalExample() {
 form.addEventListener('submit', event => { event.preventDefault(); calculatePlan(true); });
 
 $('try-example').addEventListener('click', loadFictionalExample);
+$('walkthrough-play').addEventListener('click', () => {
+  const button = $('walkthrough-play');
+  const player = $('walkthrough-player');
+  if (player.children.length) return;
+  const videoId = button.getAttribute('data-video-id');
+  if (!/^[A-Za-z0-9_-]{11}$/.test(videoId || '')) return;
+  const title = button.getAttribute('data-video-title') || 'YouTube video';
+  const iframe = document.createElement('iframe');
+  iframe.setAttribute('title', `${title} video player`);
+  iframe.setAttribute('src', `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0`);
+  iframe.setAttribute('loading', 'lazy');
+  iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+  iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+  iframe.setAttribute('allowfullscreen', '');
+  player.replaceChildren(iframe);
+  button.hidden = true;
+  iframe.focus();
+});
 $('eligible').addEventListener('change', () => {
   $('hsa-fields').hidden = !$('eligible').checked;
   $('tax-option').hidden = !$('eligible').checked;
