@@ -13,6 +13,12 @@
 .example-button,.calculate-button,.secondary-button,.reset-button{min-height:48px;padding:12px 20px;font-size:16px;font-weight:800;border:2px solid var(--ink);border-radius:5px}
 .example-button,.calculate-button{background:var(--sun);color:var(--ink)}
 .example-button{margin:12px 0}
+.video-plan-sample{max-width:900px;margin:10px 0 18px;padding:14px 16px;border:1px solid var(--line);background:#fff}
+.video-plan-sample-button{min-height:48px;padding:11px 16px;border:2px solid var(--ink);border-radius:5px;background:var(--sun);color:var(--ink);font:800 15px/1.35 Manrope,system-ui,sans-serif;cursor:pointer}
+.video-plan-sample-button:disabled{background:#eef0f4;color:#354057;cursor:not-allowed}
+.video-plan-sample-button:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
+.video-plan-sample .field-help{max-width:840px;margin:10px 0 0}
+.video-plan-sample .example-callout{margin:12px 0 0}
 .example-button span,.calculate-button span{padding-left:10px}
 .secondary-button{background:transparent;color:var(--ink)}
 .reset-button{background:transparent;color:var(--ink);border:0;text-decoration:underline;text-underline-offset:4px;margin-left:8px}
@@ -29,6 +35,15 @@
 .plan-cards input::placeholder,.fields input::placeholder,.wide-field input::placeholder{color:#5c6575;opacity:1;font-size:15px;font-weight:500}
 .plan-cards label:focus-within input,.fields label:focus-within input,.fields label:focus-within select,.wide-field:focus-within input{outline:3px solid var(--ink);outline-offset:2px}
 .wide-field{max-width:720px;margin:24px 0}
+.care-scenario-buttons{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px}
+.care-scenario-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:10px 15px;border:1px solid var(--ink);border-radius:5px;background:transparent;color:var(--ink);font:750 14px/1.35 Manrope,system-ui,sans-serif;cursor:pointer}
+.care-scenario-button[aria-pressed="true"]{background:var(--sun);box-shadow:3px 3px 0 #14213d18}
+.care-scenario-button:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.growth-return-presets{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 8px}
+.fields-three>.growth-return-presets,.fields-three>.growth-return-note{grid-column:1/-1}
+.growth-return-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:10px 15px;border:1px solid var(--ink);border-radius:5px;background:transparent;color:var(--ink);font:750 14px/1.35 Manrope,system-ui,sans-serif;cursor:pointer}
+.growth-return-button[aria-pressed="true"]{background:var(--sun);box-shadow:3px 3px 0 #14213d18}
+.growth-return-button:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
 .field-help{display:block;margin:7px 0 18px;color:#354057;font-size:14px;font-weight:500;line-height:1.55;max-width:760px}
 .plan-cards .field-help{font-size:13px}
 .helper{font-size:14px;line-height:1.6;color:#354057;max-width:900px}
@@ -117,6 +132,11 @@ tbody tr.emphasis{background:#fff1cc;font-weight:800}
   .calculator-page{max-width:100%}.calc-step{padding:24px 0}.plan-cards,.fields-two,.fields-three{grid-template-columns:1fr}
   .plan-cards fieldset{padding:17px}.plan-cards legend{font-size:22px}.plan-cards label,.fields>label,.wide-field{font-size:16px}
   .plan-cards input,.fields input,.fields select,.wide-field input{font-size:18px;min-height:52px}
+  .care-scenario-buttons{display:grid;grid-template-columns:1fr;gap:8px}
+  .care-scenario-button{width:100%;justify-content:flex-start;text-align:left}
+  .video-plan-sample-button{width:100%;text-align:left}
+  .growth-return-presets{display:grid;grid-template-columns:1fr;gap:8px}
+  .growth-return-button{width:100%;justify-content:flex-start;text-align:left}
   .field-help{font-size:14px}.plan-cards .field-help{font-size:14px}
   .example-button,.calculate-button,.secondary-button,.reset-button{width:100%;margin:8px 0;text-align:left;justify-content:flex-start}
   .result{padding:22px 16px;margin:28px 0;box-shadow:4px 4px 0 #14213d15}.result-cards{grid-template-columns:1fr;gap:8px;border:0}

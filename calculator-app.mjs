@@ -9,6 +9,15 @@ const rate = id => value(id) === '' ? '' : String(Number(value(id)) / 100);
 let exampleMode = false;
 let hasProjected = false;
 let hasCalculated = false;
+let videoSampleLoaded = false;
+let videoSampleEdited = false;
+
+// Paul-approved public video sample. Keep these plan-only values in parity with
+// the canonical 2027 self-only, in-network preset; tests enforce the mapping.
+const VIDEO_PLAN_SAMPLE = {
+  A: { monthly: '91', deductible: '700', coinsurance: '15', maximum: '3500' },
+  B: { monthly: '0', deductible: '1900', coinsurance: '20', maximum: '3800', employer: '250' }
+};
 
 function inputData() {
   return {
@@ -217,10 +226,63 @@ function projectGrowth(focus = false) {
 
 function setValue(id, next) { $(id).value = String(next); }
 
+function setCareScenarioSelection(selectedId = null) {
+  for (const id of ['care-scenario-light', 'care-scenario-medium', 'care-scenario-high']) {
+    $(id).setAttribute('aria-pressed', String(id === selectedId));
+  }
+}
+
+function setGrowthReturnSelection(selectedId = null) {
+  for (const id of ['growth-return-5', 'growth-return-7', 'growth-return-10']) {
+    $(id).setAttribute('aria-pressed', String(id === selectedId));
+  }
+}
+
+function updateVideoSampleState(message = '') {
+  const button = $('load-video-plan-sample');
+  const status = $('video-plan-sample-status');
+  const isSelfOnly = value('tier') === 'employee_only';
+  button.disabled = !isSelfOnly;
+  if (message) {
+    status.textContent = message;
+    status.hidden = false;
+  } else if (videoSampleLoaded) {
+    status.textContent = isSelfOnly
+      ? `The video’s 2027 sample plan fields are loaded${videoSampleEdited ? ' and one or more have been edited' : ''}. Verify them against your benefits documents.`
+      : `The video’s self-only sample values remain in the plan fields${videoSampleEdited ? ' (one or more have been edited)' : ''}. Changing coverage choice does not update them; replace them with the selected tier’s terms before comparing.`;
+    status.hidden = false;
+  } else {
+    status.textContent = '';
+    status.hidden = true;
+  }
+}
+
+function loadVideoPlanSample() {
+  if (value('tier') !== 'employee_only') {
+    updateVideoSampleState('Choose “Just me” to load this single-person sample. Coverage selection and plan values were not changed.');
+    return;
+  }
+  for (const key of ['A', 'B']) {
+    for (const field of ['monthly', 'deductible', 'coinsurance', 'maximum']) {
+      setValue(`${key}-${field}`, VIDEO_PLAN_SAMPLE[key][field]);
+    }
+  }
+  setValue('B-employer', VIDEO_PLAN_SAMPLE.B.employer);
+  videoSampleLoaded = true;
+  videoSampleEdited = false;
+  if (exampleMode) { exampleMode = false; $('example-status').hidden = true; }
+  updateVideoSampleState();
+  if (hasCalculated) calculatePlan(false);
+}
+
 function loadFictionalExample() {
   exampleMode = true;
+  videoSampleLoaded = false;
+  videoSampleEdited = false;
+  updateVideoSampleState();
+  setCareScenarioSelection();
   $('example-status').hidden = false;
-  setValue('tier', 'employee_only'); setValue('network', 'in'); setValue('allowed', '5000');
+  setValue('tier', 'employee_only'); updateVideoSampleState(); setValue('network', 'in'); setValue('allowed', '5000');
   setValue('A-monthly', '250'); setValue('A-deductible', '1500'); setValue('A-coinsurance', '20'); setValue('A-maximum', '5000');
   setValue('B-monthly', '150'); setValue('B-deductible', '3000'); setValue('B-coinsurance', '20'); setValue('B-maximum', '6000'); setValue('B-employer', '1000');
   $('eligible').checked = true; setValue('payrollEmployee', '0'); setValue('directEmployee', '0'); setValue('starting', '0'); setValue('catchUp', '0');
@@ -228,6 +290,7 @@ function loadFictionalExample() {
   setValue('federal', ''); setValue('state', ''); setValue('payroll', '');
   $('billEnabled').checked = false; setValue('billDate', ''); setValue('bill', ''); setValue('bill-qualified', ''); setValue('bill-planned', ''); setValue('bill-available', ''); setValue('bill-outsideCash', '');
   setValue('growth-starting', '0'); setValue('growth-contribution', '1000'); setValue('growth-returnRate', '5');
+  setGrowthReturnSelection('growth-return-5');
   setValue('growth-fundExpenseRate', '0.05'); setValue('growth-adminRate', '0'); setValue('growth-adminCap', '0');
   $('growth-adminUncapped').checked = false; setValue('growth-adminFlatFee', '0'); $('growth-adminCap').disabled = false;
   $('hsa-details').open = true; $('bill-details').open = false; $('growth-details').open = true;
@@ -239,6 +302,22 @@ function loadFictionalExample() {
 form.addEventListener('submit', event => { event.preventDefault(); calculatePlan(true); });
 
 $('try-example').addEventListener('click', loadFictionalExample);
+$('load-video-plan-sample').addEventListener('click', loadVideoPlanSample);
+for (const id of ['care-scenario-light', 'care-scenario-medium', 'care-scenario-high']) {
+  $(id).addEventListener('click', () => {
+    setValue('allowed', $(id).getAttribute('data-care-scenario'));
+    setCareScenarioSelection(id);
+    if (exampleMode) { exampleMode = false; $('example-status').hidden = true; }
+    if (hasCalculated) calculatePlan(false);
+  });
+}
+for (const id of ['growth-return-5', 'growth-return-7', 'growth-return-10']) {
+  $(id).addEventListener('click', () => {
+    setValue('growth-returnRate', $(id).getAttribute('data-growth-return-rate'));
+    setGrowthReturnSelection(id);
+    if (hasProjected) projectGrowth(false);
+  });
+}
 $('walkthrough-play').addEventListener('click', () => {
   const button = $('walkthrough-play');
   const player = $('walkthrough-player');
@@ -271,17 +350,34 @@ $('growth-adminUncapped').addEventListener('change', () => {
 $('project-growth').addEventListener('click', () => projectGrowth(true));
 form.addEventListener('input', event => {
   if (exampleMode) { exampleMode = false; $('example-status').hidden = true; }
+  if (videoSampleLoaded && ['A-monthly', 'A-deductible', 'A-coinsurance', 'A-maximum', 'B-monthly', 'B-deductible', 'B-coinsurance', 'B-maximum', 'B-employer'].includes(event.target.id)) {
+    videoSampleEdited = true;
+    updateVideoSampleState();
+  }
+  if (event.target.id === 'tier') updateVideoSampleState();
+  if (event.target.id === 'allowed') setCareScenarioSelection();
+  if (event.target.id === 'growth-returnRate') setGrowthReturnSelection();
   if (hasCalculated) calculatePlan(false);
   if (hasProjected && event.target.id?.startsWith('growth-')) projectGrowth(false);
 });
 form.addEventListener('change', event => {
   if (exampleMode) { exampleMode = false; $('example-status').hidden = true; }
+  if (videoSampleLoaded && ['A-monthly', 'A-deductible', 'A-coinsurance', 'A-maximum', 'B-monthly', 'B-deductible', 'B-coinsurance', 'B-maximum', 'B-employer'].includes(event.target.id)) {
+    videoSampleEdited = true;
+    updateVideoSampleState();
+  }
+  if (event.target.id === 'tier') updateVideoSampleState();
+  if (event.target.id === 'allowed') setCareScenarioSelection();
+  if (event.target.id === 'growth-returnRate') setGrowthReturnSelection();
   if (hasCalculated) calculatePlan(false);
   if (hasProjected && event.target.id?.startsWith('growth-')) projectGrowth(false);
 });
 $('result-heading').tabIndex = -1;
 form.addEventListener('reset', () => {
   exampleMode = false; hasProjected = false; hasCalculated = false;
+  videoSampleLoaded = false; videoSampleEdited = false;
+  setCareScenarioSelection();
+  setGrowthReturnSelection();
   $('example-status').hidden = true;
   $('result-output').hidden = true; $('result-empty').hidden = false; $('bill-result').hidden = true;
   $('growth-result').hidden = true; $('growth-errors').hidden = true;
@@ -294,5 +390,7 @@ form.addEventListener('reset', () => {
     $('tax-fields').hidden = !eligible || !$('taxEnabled').checked;
     $('bill-fields').hidden = !$('billEnabled').checked;
     $('growth-adminCap').disabled = $('growth-adminUncapped').checked;
+    updateVideoSampleState();
   }, 0);
 });
+updateVideoSampleState();

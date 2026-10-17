@@ -8,8 +8,8 @@
   <meta name="description" content="Compare an employer PPO and high-deductible health plan with an HSA using your premiums, plan-approved in-network care, HSA deposits, and bill timing.">
   <link rel="canonical" href="https://paulonmoney.com/tools/health-plan-comparison/">
   <link rel="stylesheet" href="/site.css">
-  <link rel="stylesheet" href="/calculator.css?v=1a104356102f">
-  <script type="module" src="/calculator-app.mjs?v=1cea29e7527f"></script>
+  <link rel="stylesheet" href="/calculator.css?v=779fbea5711b">
+  <script type="module" src="/calculator-app.mjs?v=4fdbaafc73c6"></script>
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 </head>
 <body data-page-id="health-plan-comparison" data-page-label="PPO vs. HDHP/HSA comparison tool">
@@ -42,6 +42,11 @@
               <small class="field-help" id="tier-help">Choose the coverage tier shown in your benefits enrollment page. This affects the HSA contribution limit; family care is modeled as a combined total.</small>
             </label>
           </div>
+          <div class="video-plan-sample">
+            <button id="load-video-plan-sample" class="video-plan-sample-button" type="button" disabled>Use the video’s 2027 sample plan numbers</button>
+            <p class="field-help">Choose “Just me” above to enable this single-person, in-network sample. It is the video’s 2027 sample, not your plan or a recommendation. Loading it replaces both plans’ monthly premiums, deductibles, coinsurance, and out-of-pocket maximums, plus Plan B’s employer HSA contribution. It leaves your coverage choice, care estimate, personal HSA and tax entries, bill entries, and growth assumptions unchanged. Check your own benefits documents before relying on plan terms.</p>
+            <p id="video-plan-sample-status" class="example-callout" role="status" aria-live="polite" hidden></p>
+          </div>
           <p class="helper">Plan A is the PPO. Plan B is the high-deductible health plan (HDHP) with an HSA.</p>
           <div class="plan-cards">
             <fieldset><legend>Plan A · PPO</legend>
@@ -64,6 +69,12 @@
           <p class="step-index">02</p><h2 id="care-heading">Estimate a year of covered care</h2>
           <label class="wide-field" for="allowed">Full plan-approved price of covered in-network care before insurance shares it <span>USD / year</span><input id="allowed" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 5,000" aria-describedby="allowed-help"></label>
           <small id="allowed-help" class="field-help">Use the allowed amount before your share is calculated, from an insurer estimator or claim/EOB. This is not a sticker charge, deductible, or amount you owe. Estimate covered in-network care for everyone on the selected tier; enter 0 only if you are modeling no covered care.</small>
+          <div class="care-scenario-buttons" role="group" aria-label="Sample yearly covered-care scenarios">
+            <button id="care-scenario-light" class="care-scenario-button" type="button" data-care-scenario="1000" aria-pressed="false">Light-use year · $1,000</button>
+            <button id="care-scenario-medium" class="care-scenario-button" type="button" data-care-scenario="5000" aria-pressed="false">Medium-use year · $5,000</button>
+            <button id="care-scenario-high" class="care-scenario-button" type="button" data-care-scenario="11400" aria-pressed="false">High-cost year · $11,400</button>
+          </div>
+          <p class="helper">Try all three to see how the comparison changes. These are sample yearly totals, not prices for specific visits or a prediction of your health costs.</p>
         </section>
 
         <details class="optional" id="hsa-details"><summary>Optional: add your own HSA deposits and tax assumptions</summary>
@@ -109,7 +120,13 @@
           <div class="fields fields-three" id="growth-fields">
             <label for="growth-starting">Starting HSA money already invested <span>USD</span><input id="growth-starting" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 0" aria-describedby="growth-starting-help"><small class="field-help" id="growth-starting-help">Use the amount currently invested, not cash you need for near-term bills. Check the HSA provider's account view.</small></label>
             <label for="growth-contribution">New HSA money left invested each year <span>USD / year</span><input id="growth-contribution" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 1,000" aria-describedby="growth-contribution-help"><small class="field-help" id="growth-contribution-help">Estimate deposits from your benefits election/payroll portal and employer HSA policy, then subtract money spent on care. Do not count the same dollar more than once.</small></label>
-            <label for="growth-returnRate">Assumed yearly investment return before fund fees <span>%</span><input id="growth-returnRate" type="number" step="any" inputmode="decimal" placeholder="e.g., 5 or -5" aria-describedby="growth-returnRate-help"><small class="field-help" id="growth-returnRate-help">Choose a hypothetical rate for exploration, not a forecast. Published fund returns may already include fund expenses; check before subtracting them again. Investments can lose value; use a negative number to explore a loss case.</small></label>
+            <label for="growth-returnRate">Assumed yearly investment return before fund fees <span>%</span><input id="growth-returnRate" type="number" step="any" inputmode="decimal" value="0" placeholder="e.g., 5 or -5" aria-describedby="growth-returnRate-help"><small class="field-help" id="growth-returnRate-help">Choose a hypothetical rate for exploration, not a forecast. Published fund returns may already include fund expenses; check before subtracting them again. Investments can lose value; use a negative number to explore a loss case.</small></label>
+            <div class="growth-return-presets" role="group" aria-label="Illustrative annual return assumptions">
+              <button id="growth-return-5" class="growth-return-button" type="button" data-growth-return-rate="5" aria-pressed="false">5% · lower-return example</button>
+              <button id="growth-return-7" class="growth-return-button" type="button" data-growth-return-rate="7" aria-pressed="false">7% · Investor.gov reference</button>
+              <button id="growth-return-10" class="growth-return-button" type="button" data-growth-return-rate="10" aria-pressed="false">10% · historical-market reference</button>
+            </div>
+            <p class="field-help growth-return-note">These are illustrative assumptions, not recommended or guaranteed returns. You can enter another rate, including a negative return.</p>
             <label for="growth-fundExpenseRate">Fund expense ratio per year <span>%</span><input id="growth-fundExpenseRate" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 0.05" aria-describedby="growth-fundExpenseRate-help"><small class="field-help" id="growth-fundExpenseRate-help">Find the fund's annual expense ratio in the HSA investment menu or fund prospectus.</small></label>
             <label for="growth-adminRate">Percentage account fee per year <span>%</span><input id="growth-adminRate" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 0.25" aria-describedby="growth-adminRate-help"><small class="field-help" id="growth-adminRate-help">Check the provider's investment-fee schedule. Enter 0 only if you know there is no percentage-based fee. This is separate from the fund expense ratio.</small></label>
             <label for="growth-adminCap">Annual cap on the percentage fee <span>USD / year</span><input id="growth-adminCap" type="number" min="0" step="any" inputmode="decimal" placeholder="e.g., 100" aria-describedby="growth-adminCap-help"><small class="field-help" id="growth-adminCap-help">Enter the percentage fee's annual dollar cap from the provider schedule. If there is no cap, select the box below instead of entering 0.</small></label>

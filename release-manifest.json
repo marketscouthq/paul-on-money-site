@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "treeSha256": "a1d455e67561156264f68d7434352e125daab40f1cdba5f327d958075bcddc98",
+  "treeSha256": "21273139c4b317ac7d0d66b537204cc56fce3583bfb8e8abc3f2befe45305a59",
   "files": [
     {
       "path": "about/index.html",
@@ -49,8 +49,8 @@
     },
     {
       "path": "calculator-app.mjs",
-      "bytes": 17773,
-      "sha256": "1cea29e7527f1f525e5d4a66d735bc7dbb6cffa9ce9d89cb268c2a4b53df65e1"
+      "bytes": 22213,
+      "sha256": "4fdbaafc73c6a1b7a075706b36d023e28b11c4fdcd722dccfa21ab8a51dbc97a"
     },
     {
       "path": "calculator-core.mjs",
@@ -59,8 +59,8 @@
     },
     {
       "path": "calculator.css",
-      "bytes": 11659,
-      "sha256": "1a104356102f5fbcba2dcc3d2977e540d5d36d56f3c3fbbf701f3626a4df1b47"
+      "bytes": 13784,
+      "sha256": "779fbea5711bc086b4d285b7c90a94a1a17ebfeb8e9c69eb3351f92404e16234"
     },
     {
       "path": "index.html",
@@ -74,8 +74,8 @@
     },
     {
       "path": "site.css",
-      "bytes": 25094,
-      "sha256": "cf1297c09472bdf5a1273d0c3bd51e46c42ed0f7e6b8d232d8b203210377f711"
+      "bytes": 35976,
+      "sha256": "11df24670fa9cc17c18ed114049f31161a48258b3a9a0a1e74e8d820b3dacf5d"
     },
     {
       "path": "sitemap.xml",
@@ -84,8 +84,8 @@
     },
     {
       "path": "tools/health-plan-comparison/index.html",
-      "bytes": 32515,
-      "sha256": "b1a1fe2138cec568f789e6856c93ec29d230847d8c93b7b688610e05bc46f40b"
+      "bytes": 35038,
+      "sha256": "aa72015305ae14ae0477360eba5f70379420c6864f6420da587362487d873389"
     },
     {
       "path": "tools/index.html",
