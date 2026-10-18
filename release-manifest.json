@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "treeSha256": "5376b3e6e84cdc8c760c202520275106c467e1dba4e088d04e5ecdcf6fabf861",
+  "treeSha256": "d79cc0d93d8a3fe5b359e2ab9c9a4aacb940cda89800f0a4d72c9a9c6b2bcb05",
   "files": [
     {
       "path": "_headers",
@@ -19,8 +19,8 @@
     },
     {
       "path": "articles/hdhp-vs-ppo-cheaper-plan/index.html",
-      "bytes": 51670,
-      "sha256": "1886fd30b1fcfc7c19e9e83b7a74f0541ce3622a291172ce4c9bab8ebe2efed1"
+      "bytes": 51682,
+      "sha256": "dad8eed4430b046151fa8084f4fdea3daa11fbe0cf127ec6cbbb93a97824440b"
     },
     {
       "path": "articles/index.html",
@@ -83,6 +83,11 @@
       "sha256": "f8e6cde2bf36b83cea9c9ed796bcd0c3f463ce25f4567bce534eca94f5252b3e"
     },
     {
+      "path": "assets/health-plan-comparison-video-thumbnail.webp",
+      "bytes": 47850,
+      "sha256": "59d7485ebe51fe557e456a2a05cdb70d761ca6ebc8249c36b22bc972773d943b"
+    },
+    {
       "path": "assets/health-plan-cover.png",
       "bytes": 84720,
       "sha256": "b2818b3ee7d4ffebbdd6163e3fc186ad78ab54efe8b62b3a7528542879322d42"
@@ -104,8 +109,8 @@
     },
     {
       "path": "calculator.css",
-      "bytes": 13784,
-      "sha256": "779fbea5711bc086b4d285b7c90a94a1a17ebfeb8e9c69eb3351f92404e16234"
+      "bytes": 13796,
+      "sha256": "b4f3903503306ee14da90360464759832e93275d146035a6203b9a199677f92a"
     },
     {
       "path": "index.html",
@@ -140,7 +145,7 @@
     {
       "path": "tools/health-plan-comparison/index.html",
       "bytes": 38758,
-      "sha256": "a9fe2596e9f5997780e0f3bdb2103665d94d494330077d9e0fae720baa74295a"
+      "sha256": "3e688471b5f3ccf3d5a72ada44c1e6cd5c0f2bd265b8459b1714fc9928fa840b"
     },
     {
       "path": "tools/index.html",

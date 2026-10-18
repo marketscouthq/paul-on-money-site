@@ -4,7 +4,7 @@
 .tool-intro .lede{max-width:780px}
 .tool-hero-art{display:grid;grid-template-columns:1fr .44fr;gap:28px;align-items:center}
 .tool-hero-art figure{margin:0;background:#fff;padding:8px 8px 0;border:1px solid var(--line);box-shadow:8px 8px 0 var(--sun)}
-.tool-hero-art img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.tool-hero-art img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
 .tool-hero-art figcaption,.comparison-figure figcaption{font-size:12px;color:#354057;padding:9px 3px}
 .calc-step{border-top:1px solid var(--line);padding:32px 0}
 .calc-step h2,.result h2,.sources h2{font:800 clamp(27px,3.5vw,36px)/1.12 Bricolage,system-ui,sans-serif;letter-spacing:-.03em;margin:0 0 18px}
