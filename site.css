@@ -141,7 +141,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .artwork-heading>p{font-size:12px;color:#354057;max-width:460px;margin:0 0 4px}
 .artwork-grid{display:grid;grid-template-columns:1fr 1fr;gap:19px}
 .artwork-grid figure{margin:0;background:#fff;border:1px solid var(--line);padding:9px 9px 0;box-shadow:5px 5px 0 var(--sun)}
-.artwork-grid img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.artwork-grid img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
 .artwork-grid figcaption{display:flex;flex-direction:column;gap:4px;padding:11px 3px;color:var(--muted);font-size:11px}
 .artwork-grid figcaption strong{font:800 17px/1.2 Bricolage;color:var(--ink)}
 .about-note{border-left:4px solid var(--sun);padding:2px 0 2px 13px;color:var(--muted);font-size:11px;margin:24px 0 5px}

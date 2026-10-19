@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "treeSha256": "83bd87ff8ac8ca7981acce470f0e28886643f1c9072a1034f4ccac5941938353",
+  "treeSha256": "1a602aa0a93579ab130c7b5741e0a66f7154f472f676d982a5013b667c00a076",
   "files": [
     {
       "path": "_headers",
@@ -9,8 +9,8 @@
     },
     {
       "path": "about/index.html",
-      "bytes": 5974,
-      "sha256": "a1c8cd232ce194065d06eab403e65911c05838bd1579f5c8a34c28fa9bf1f3fc"
+      "bytes": 5989,
+      "sha256": "414cbb847521f95cde937fd95d6bc69bfc7cb45363c08bc117f45e8a02f20549"
     },
     {
       "path": "analytics.mjs",
@@ -115,7 +115,7 @@
     {
       "path": "index.html",
       "bytes": 6947,
-      "sha256": "284a80d0b4f93c4a747fcfe08f5ff8221ce917e5d698050aaf48ba139de4998d"
+      "sha256": "5bb4d1b74353bbeefebe800a8da79cb61daf50cb7584c14fff163cf793793763"
     },
     {
       "path": "llms-full.txt",
@@ -134,8 +134,8 @@
     },
     {
       "path": "site.css",
-      "bytes": 37491,
-      "sha256": "4aa2be9bf1356be17f7acc69e7c90abb1c1ca14ba728bf48bfe4cb4a369ef77c"
+      "bytes": 37503,
+      "sha256": "eeb220b85805082ee49a7d2869603961e8e24958ca49fa7c10766999b1a1dc4f"
     },
     {
       "path": "site.js",
