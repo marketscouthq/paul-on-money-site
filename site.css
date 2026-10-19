@@ -28,7 +28,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .hero .mark,.marker{background:linear-gradient(transparent 63%,var(--sun) 63%,var(--sun) 92%,transparent 92%)}
 .hero-dek,.lede,.dek{font-size:clamp(16px,1.7vw,19px);line-height:1.58;color:#354057;max-width:650px;margin:0}
 .hero-art{margin:5px 6px 5px 0;background:#fff;padding:10px 10px 0;border:1px solid var(--line);box-shadow:12px 12px 0 var(--sun);transform:rotate(1deg);position:relative;z-index:1}
-.hero-art img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:5px}
+.hero-art img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:5px}
 .hero-art figcaption{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 3px 12px;font-size:11px;color:var(--muted)}
 .hero-art figcaption strong{color:var(--ink);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
 .question-box{display:grid;grid-template-columns:1fr auto;gap:9px 12px;padding:20px 22px;background:var(--ink);color:var(--paper);border-radius:4px 20px 4px 20px;box-shadow:8px 8px 0 var(--sun);margin:26px 7px 34px 0}

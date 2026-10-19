@@ -20,6 +20,12 @@ Image: Illustration of a person weighing the costs of a high-deductible health p
 
 PPO or HDHP? Compare the whole plan
 
+What are you trying to figure out?
+
+Find the path ↗
+
+This site currently has a free health-plan comparison tool. Questions stay in this browser and are not sent or saved.
+
 Question
 path 01
 
