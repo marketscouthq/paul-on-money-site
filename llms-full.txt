@@ -139,6 +139,20 @@ Health plan costs · 15 min read Published October 17, 2026
 Compare monthly premiums, covered-care costs, employer HSA money, tax rules, and bill timing before choosing a health plan.
 [Read the full guide →](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/)
 
+Health plan networks · 5 min read Published November 16, 2026
+
+#### [HMO vs PPO: Which Rules Can You Live With?](https://paulonmoney.com/articles/hmo-vs-ppo/)
+
+Compare HMO and PPO networks, specialist referrals, prior approval and total costs. Four practical questions to ask before choosing your health plan.
+[Read the full guide →](https://paulonmoney.com/articles/hmo-vs-ppo/)
+
+Health accounts · 5 min read Published November 16, 2026
+
+#### [HSA vs FSA: Which One Makes Sense for You?](https://paulonmoney.com/articles/hsa-vs-fsa/)
+
+HSA or FSA? Start with eligibility, then compare tax benefits, rollover rules, access to money and the medical bills you actually expect.
+[Read the full guide →](https://paulonmoney.com/articles/hsa-vs-fsa/)
+
 Educational information only, not financial, tax, legal, or medical advice.
 
 © 2026 Paul On Money · [About](https://paulonmoney.com/about/)
@@ -767,6 +781,352 @@ Evidence checked 2026-10-17
 
 - 11
 [Paul On Money: “HDHP vs PPO: Is the Cheaper Plan Really Cheaper?” (published video)](https://youtu.be/ee2jsxj9HxE) Checked 2026-10-17
+
+Tax thresholds are year-specific. Recheck IRS guidance for the calendar year you contribute and your own plan documents before enrolling.
+
+Educational information only, not financial, tax, legal, or medical advice.
+
+© 2026 Paul On Money
+
+Google Analytics uses its standard pseudonymous browser identifier to measure page views and broad article, video, and tool actions. Calculator entries, results, entered text, and health or financial details are not sent.
+
+---
+
+## HMO vs PPO: Which Rules Can You Live With? | Paul On Money
+
+Canonical URL: https://paulonmoney.com/articles/hmo-vs-ppo/
+
+Description: Compare HMO and PPO networks, specialist referrals, prior approval and total costs. Four practical questions to ask before choosing your health plan.
+
+[Home](https://paulonmoney.com/) / [Blog Articles](https://paulonmoney.com/articles/) / Article
+Published 2026-11-16
+
+Paul On Money · health-plan guide
+
+### HMO vs PPO: Which Rules Can You Live With?
+
+Compare HMO and PPO networks, specialist referrals, prior approval and total costs. Four practical questions to ask before choosing your health plan.
+
+Image: Text card with a yellow background reading Open Enrollment, HMO or PPO?, and Paul on Money in dark navy letters.
+
+#### Watch the video
+
+▶
+
+Uploaded October 21, 2026 · Runtime 14:27. Select play to load the YouTube player. You can also [open the video directly on YouTube](https://www.youtube.com/watch?v=pU7Lv2gtxbs).
+
+Plain answer
+
+Start with two questions: Who can you see? And who has to say yes first? Then compare what each option costs. The letters are a starting point, not a verdict on which plan is better.
+
+#### The quick comparison
+
+It’s late, the benefits portal is open, and you’re supposed to choose between HMO and PPO. Two sets of letters, one deadline, and absolutely nobody making this fun.
+
+This is the companion to the Paul On Money HMO vs PPO video. [\[1\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-video)
+
+##### Words to know
+
+- HMO (health maintenance organization): a plan type that usually covers care only from doctors and hospitals in its network, except in an emergency.
+
+- PPO (preferred provider organization): a plan type with a network where you pay less, but you can also go outside it if you pay more.
+
+- Network: the doctors, hospitals and other providers your insurance plan has contracted with to give care.
+
+- Premium: the amount you pay for your health insurance every month, whether or not you use any care.
+
+- Deductible: what you pay for covered care yourself before your insurance starts to pay its share.
+
+- Out-of-pocket maximum: the most you pay for covered services in a plan year, with some costs not counting toward it.
+
+[\[10\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-hc-hmo) [\[11\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-hc-ppo) [\[12\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-hc-network) [\[13\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-hc-premium) [\[14\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-hc-deductible) [\[15\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-hc-oop)
+
+Table: General comparison of HMO and PPO plan types
+| What you’re checking | HMO | PPO |
+| Doctors and hospitals | Usually limits coverage to its network | Has a network, with lower costs when you use it |
+| Routine care outside the network | Generally not covered | Generally available at additional cost |
+| Geography | May require you to live or work in a service area | Check the actual network, especially where you travel |
+| What the label cannot tell you | Whether your doctor participates or what your specific plan costs | Whether a particular service is covered or affordable |
+
+These are general descriptions. Your specific plan can have its own requirements. [\[2\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-plan-types)
+
+#### A referral and insurer approval are different things
+
+A referral is an order from your primary care doctor to see a specialist or get certain services. Many HMOs require one, and skipping it may mean the plan will not pay. “Many” matters: check your own plan instead of treating the label as the complete rulebook. [\[3\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-referral)
+
+Prior authorization is a decision by the insurance company or plan about whether certain care is medically necessary. It is separate from your doctor’s referral, and it is not a guarantee that every cost will be covered. A plan can require authorization even when you do not need a specialist referral. [\[4\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-preauthorization)
+
+So “I don’t need a referral” does not mean “there is no paperwork.” Insurance would never give up that easily.
+
+#### Same sore knee, different route
+
+Here’s a hypothetical example, like Sam’s in the video.
+
+Sam needs a knee specialist. Under an HMO that requires referrals, she starts with her primary care doctor and follows the plan’s specialist process. Under a PPO, she may have a more direct route, including an out-of-network option at added cost. Neither route tells her whether an MRI needs insurer approval. That is another question to check. [\[2\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-plan-types) [\[3\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-referral) [\[4\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-preauthorization)
+
+The useful comparison is not “freedom versus bad insurance.” It is whether the route to the care you need works for you, and what that route costs.
+
+#### Four questions before you choose
+
+##### 1. Is my actual doctor in the exact network?
+
+Check the plan’s directory, then confirm with the doctor’s office. Give them the full plan and network name. “We take that insurance company” does not settle whether they participate in the particular option on your enrollment screen.
+
+Include the hospital, specialists and other providers you already know you need. If keeping a particular doctor matters, settle that before comparing small differences in premiums. This is a practical verification checklist, not a promise that a directory will remain unchanged.
+
+##### 2. What must happen before a specialist visit or procedure?
+
+Write down the referral requirement and the prior-authorization requirement separately. Ask who submits each request and how you confirm it was received. A primary care appointment and an insurer approval are not interchangeable steps.
+
+##### 3. What happens outside the network?
+
+Ask about routine visits, travel, emergencies and ambulance transport separately. Do not treat emergency exceptions as permission to book ordinary out-of-network care.
+
+Federal surprise-billing protections cover many emergency situations for people using employer or individual health insurance. They do not make care free, and ground ambulances generally fall outside the federal No Surprises Act protections. State protections may differ. [\[5\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-cms-bill-rights)
+
+##### 4. What does the whole year cost?
+
+Compare your annual premiums with your share of the care you expect. Then look at a more expensive year and whether you could handle an early bill. The deductible is part of your medical spending, not an extra amount to add a second time. [\[6\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-total-costs)
+
+Use this starting point:
+
+Annual premiums + your estimated share of care = a starting annual cost estimate.
+
+Keep noncovered care and out-of-network costs visible rather than assuming they follow the in-network rules. Check the out-of-pocket limit’s exclusions in your documents.
+
+There is no universal winner from the letters alone. A lower premium does not settle whether the plan is cheaper for the care you need.
+
+#### Put the documents next to each other
+
+Ask benefits for the Summary of Benefits and Coverage, the short comparison document, plus the fuller plan documents. Obtain your employee premium from the enrollment material if it is not included in the summary. [\[7\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-sbc)
+
+Use a small comparison sheet:
+
+Table: Blank comparison sheet for two plans
+| Question | Plan A | Plan B |
+| My doctor and needed hospital confirmed in network? | | |
+| Specialist referral needed? | | |
+| Prior approval needed for expected care? | | |
+| Routine out-of-network coverage and cost? | | |
+| My annual premiums? | | |
+| Deductible, visit costs and prescription rules? | | |
+| In-network out-of-pocket maximum and exclusions? | | |
+| Cash available if a bill arrives early? | | |
+
+For the cost side, the Paul On Money health-plan comparison calculator is built around a simplified PPO versus HDHP/HSA comparison. It does not compare HMO networks, referral rules or every service-specific copay. Use the checklist above for those questions. Read the HDHP vs PPO companion article if the deductible and annual-cost tradeoff is the part you want to explore next. [\[8\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-calculator) [\[9\]](https://paulonmoney.com/articles/hmo-vs-ppo/#source-hdhp-article)
+
+#### My take
+
+An HMO may work well if the needed doctors are in its network and its care process fits you. A PPO may be worth considering if access outside the network matters enough to justify the additional cost. That is a way to use the facts, not a recommendation based on three letters.
+
+Care you cannot skip, eligibility for the plan and what you can afford come first. Preference about paperwork breaks the tie.
+
+Pick the rules you can live with. Then check the actual price of living with them.
+
+I'm not a licensed financial professional. I'm sharing my opinions and what I've learned. Do your own research.
+
+Evidence checked 2026-11-16
+
+#### Sources and notes
+
+- 1
+[Paul On Money: HMO vs PPO video (published video)](https://youtu.be/pU7Lv2gtxbs) Checked 2026-11-16
+
+- 2
+[HealthCare.gov: Plan types guide](https://www.healthcare.gov/choose-a-plan/plan-types/) Checked 2026-11-16
+
+- 3
+[HealthCare.gov: Referral](https://www.healthcare.gov/glossary/referral/) Checked 2026-11-16
+
+- 4
+[HealthCare.gov: Preauthorization](https://www.healthcare.gov/glossary/preauthorization/) Checked 2026-11-16
+
+- 5
+[CMS: Medical bill rights when using insurance](https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/know-your-rights/insurance) Checked 2026-11-16
+
+- 6
+[HealthCare.gov: Total health-care costs](https://www.healthcare.gov/choose-a-plan/your-total-costs/) Checked 2026-11-16
+
+- 7
+[HealthCare.gov: Summary of Benefits and Coverage](https://www.healthcare.gov/health-care-law-protections/summary-of-benefits-and-coverage/) Checked 2026-11-16
+
+- 8
+[Paul On Money: Health-plan comparison calculator](https://paulonmoney.com/tools/health-plan-comparison/) Checked 2026-11-16
+
+- 9
+[Paul On Money: HDHP vs PPO companion article](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/) Checked 2026-11-16
+
+- 10
+[HealthCare.gov: Health Maintenance Organization (HMO) glossary](https://www.healthcare.gov/glossary/health-maintenance-organization-hmo/) Checked 2026-11-16
+
+- 11
+[HealthCare.gov: Preferred Provider Organization (PPO) glossary](https://www.healthcare.gov/glossary/preferred-provider-organization-ppo/) Checked 2026-11-16
+
+- 12
+[HealthCare.gov: Network glossary](https://www.healthcare.gov/glossary/network/) Checked 2026-11-16
+
+- 13
+[HealthCare.gov: Premium glossary](https://www.healthcare.gov/glossary/premium/) Checked 2026-11-16
+
+- 14
+[HealthCare.gov: Deductible glossary](https://www.healthcare.gov/glossary/deductible/) Checked 2026-11-16
+
+- 15
+[HealthCare.gov: Out-of-pocket maximum/limit glossary](https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/) Checked 2026-11-16
+
+Tax thresholds are year-specific. Recheck IRS guidance for the calendar year you contribute and your own plan documents before enrolling.
+
+Educational information only, not financial, tax, legal, or medical advice.
+
+© 2026 Paul On Money
+
+Google Analytics uses its standard pseudonymous browser identifier to measure page views and broad article, video, and tool actions. Calculator entries, results, entered text, and health or financial details are not sent.
+
+---
+
+## HSA vs FSA: Which One Makes Sense for You? | Paul On Money
+
+Canonical URL: https://paulonmoney.com/articles/hsa-vs-fsa/
+
+Description: HSA or FSA? Start with eligibility, then compare tax benefits, rollover rules, access to money and the medical bills you actually expect.
+
+[Home](https://paulonmoney.com/) / [Blog Articles](https://paulonmoney.com/articles/) / Article
+Published 2026-11-16
+
+Paul On Money · health-plan guide
+
+### HSA vs FSA: Which One Makes Sense for You?
+
+HSA or FSA? Start with eligibility, then compare tax benefits, rollover rules, access to money and the medical bills you actually expect.
+
+Image: Text card reading HSA vs FSA, Check this first, Paul on Money, in navy lettering on a yellow background.
+
+#### Watch the video
+
+▶
+
+Uploaded November 15, 2026 · Runtime 10:11. Select play to load the YouTube player. You can also [open the video directly on YouTube](https://www.youtube.com/watch?v=xib4U2U6DHQ).
+
+Plain answer
+
+Here’s my take: if you’re eligible for an HSA and can comfortably leave money in it, that’s my preference. If you aren’t HSA-eligible and already know medical bills are coming, a health FSA can be useful. Neither answer means much until you check the plan and your ability to pay bills.
+
+#### First, these are accounts, not your insurance
+
+Open enrollment gives you two boxes: HSA and FSA. Apparently the benefits portal thinks changing one letter is enough explanation.
+
+Your health plan decides what care it covers and how it shares the bill. The account helps you pay eligible expenses. Choosing the account before checking the insurance is choosing the cup holder before the car.
+
+An HSA, or health savings account, belongs to you. Unspent money carries forward, and changing jobs does not take it away. A health FSA, or flexible spending arrangement, is an employer benefit. Unused money is generally forfeited, although the plan may offer a limited carryover or a grace period, not both. This article is about health FSAs, not dependent-care accounts. [\[1\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-irs-969)
+
+##### Words to know
+
+- HDHP (high-deductible health plan): a plan with a higher deductible; HSA eligibility depends on an HSA-qualified plan meeting IRS rules.
+
+- Premium: the amount you pay for your health insurance each month, separate from what you pay when you use care.
+
+- Cafeteria plan: an employer plan that lets you choose certain benefits, paid from pay before some taxes.
+
+- Limited-purpose FSA: a health FSA that pays only some kinds of expenses, which can sit alongside an HSA.
+
+- Grace period: extra time after the plan year ends when you can still use leftover FSA money.
+
+- Carryover: unused FSA money that the plan lets you move into the next plan year.
+
+[\[8\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-hc-hdhp) [\[9\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-hc-premium) [\[1\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-irs-969) [\[2\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-irs-15b)
+
+#### Check whether you can contribute to an HSA
+
+You generally need qualifying health coverage, no disqualifying other coverage, no Medicare enrollment, and no ability for someone else to claim you as a tax dependent. A big deductible alone does not establish eligibility.
+
+General-purpose health FSA coverage usually blocks HSA contributions. A correctly designed limited-purpose FSA can be compatible. Ask about any coverage through your spouse and any leftover FSA grace period or carryover before contributing. The question is what covers you, not whether you have used it. [\[2\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-irs-15b)
+
+##### A current rule worth checking
+
+Beginning in 2026, qualifying individual-market Bronze and Catastrophic plans receive special HSA treatment. IRS Notice 2026-5 explains that certain plans bought outside an ACA Marketplace (also called an Exchange) qualify too. It also addresses relief when someone has no reason to believe their individual-market Bronze or Catastrophic plan is not available on an Exchange. Employer SHOP coverage does not automatically get the same treatment. These changes do not erase the separate personal eligibility rules. Ask the insurer which provision applies to your exact plan. [\[3\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-irs-notice-2026-5)
+
+#### The HSA tax benefit has three parts
+
+Eligible personal contributions can reduce federal taxable income. Earnings inside the HSA are federally tax-free. Withdrawals for qualified medical expenses can also be federally tax-free. Employer deposits count toward your annual limit. Check that year’s limit and any partial-year eligibility before contributing. [\[1\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-irs-969)
+
+How you contribute matters too. Eligible HSA contributions through an employer’s cafeteria plan can receive payroll-tax treatment that a direct personal contribution does not. Do not deduct a contribution again if it was already excluded from your income. [\[2\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-irs-15b)
+
+That is a tax benefit, not free medical care. You are still spending money, and an HSA investment is not guaranteed to grow. Account fees and investment risk belong in the decision.
+
+#### The FSA’s useful trick: access before all the paycheck deductions
+
+A health FSA can reimburse eligible bills up to the annual election before all payroll deductions arrive. It cannot advance money for future treatment. Check coverage dates and claim requirements. [\[1\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-irs-969)
+
+Eligible health FSA paycheck contributions generally avoid federal income and employment taxes. A health FSA can cover eligible expenses such as deductibles and copays. Your employer may contribute, but is not required to. Ask how to submit claims and what evidence to keep. [\[1\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-irs-969) [\[5\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-healthcare-fsa)
+
+My practical rule is to start with bills you can reasonably predict, not the worst medical year you can imagine. A tax break on something you already needed is useful. Buying unnecessary items to rescue leftover benefit money is a strange kind of victory.
+
+#### Two people, two sensible answers
+
+You expect eligible bills and cannot contribute to an HSA. A health FSA may fit. List likely expenses, subtract reimbursements available elsewhere, and check the plan’s deadlines before making your election. Keep uncertain expenses separate from the ones you are confident about.
+
+You are HSA-eligible and have cash available for care. An HSA may fit your preference for keeping money available beyond this year. But leaving money invested only works if paying today’s bills another way is comfortable. A future balance is not a reason to delay necessary care.
+
+There is also an option to reimburse yourself later. IRS guidance does not set a time limit for HSA reimbursement of a qualified expense incurred after the HSA was established. Keep records showing it was eligible, was not reimbursed elsewhere and was not also claimed as an itemized medical deduction. This is an option to document carefully, not an automatic tax strategy for everyone. [\[4\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-irs-notice-2004-50)
+
+#### Ask benefits these questions before clicking submit
+
+- Does my exact health coverage qualify for HSA contributions, and does any other coverage affect me?
+
+- Can my spouse’s FSA reimburse my bills? If so, what does that mean for my eligibility?
+
+- Does the health FSA offer carryover, a grace period or neither?
+
+- What is the last date to receive eligible care, and what is the separate deadline to submit a claim?
+
+- What happens to the FSA if I leave this job?
+
+- What will my employer contribute, and when will that money be available?
+
+- What fees and investment conditions apply to the HSA?
+
+Get the written answers. “I think so” is not a benefits document.
+
+#### Compare the health plans too
+
+The account is only part of the choice. Compare premiums, your expected share of covered care, provider access and the cash you would need if a bill arrived early.
+
+The Paul On Money health-plan comparison calculator lets you explore the cost side of a PPO versus HDHP/HSA comparison. Use your own plan documents, not guessed averages. It is a simplified scenario tool, not an HSA-eligibility checker, an FSA planner or a promise of future costs. For the fuller explanation, read HDHP vs PPO: Is the Cheaper Plan Really Cheaper? [\[6\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-calculator) [\[7\]](https://paulonmoney.com/articles/hsa-vs-fsa/#source-hdhp-vs-ppo-article)
+
+Bottom line: eligibility first, bills and cash flow second, tax benefits after that. The better account is the one that works with your actual coverage and the way you can afford to pay for care.
+
+I'm not a licensed financial professional. I'm sharing my opinions and what I've learned. Do your own research.
+
+Evidence checked 2026-11-16
+
+#### Sources and notes
+
+- 1
+[IRS Publication 969: Health Savings Accounts and Other Tax-Favored Health Plans](https://www.irs.gov/publications/p969) Checked 2026-11-16
+
+- 2
+[IRS Publication 15-B: Employer’s Tax Guide to Fringe Benefits](https://www.irs.gov/publications/p15b) Checked 2026-11-16
+
+- 3
+[IRS Notice 2026-5, questions 4–8](https://www.irs.gov/pub/irs-drop/n-26-05.pdf) Checked 2026-11-16
+
+- 4
+[IRS Notice 2004-50, question 39](https://www.irs.gov/pub/irs-drop/n-04-50.pdf) Checked 2026-11-16
+
+- 5
+[HealthCare.gov: Flexible Spending Accounts (FSAs)](https://www.healthcare.gov/have-job-based-coverage/flexible-spending-accounts/) Checked 2026-11-16
+
+- 6
+[Paul On Money: Health-plan comparison calculator](https://paulonmoney.com/tools/health-plan-comparison/) Checked 2026-11-16
+
+- 7
+[Paul On Money: HDHP vs PPO: Is the Cheaper Plan Really Cheaper?](https://paulonmoney.com/articles/hdhp-vs-ppo-cheaper-plan/) Checked 2026-11-16
+
+- 8
+[HealthCare.gov: High Deductible Health Plan (HDHP) glossary](https://www.healthcare.gov/glossary/high-deductible-health-plan/) Checked 2026-11-16
+
+- 9
+[HealthCare.gov: Premium glossary](https://www.healthcare.gov/glossary/premium/) Checked 2026-11-16
 
 Tax thresholds are year-specific. Recheck IRS guidance for the calendar year you contribute and your own plan documents before enrolling.
 

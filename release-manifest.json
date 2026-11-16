@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "treeSha256": "1a602aa0a93579ab130c7b5741e0a66f7154f472f676d982a5013b667c00a076",
+  "treeSha256": "723597f33933b7122f688a2c224451df5842d08b0ce80d139b62e952c86be019",
   "files": [
     {
       "path": "_headers",
@@ -19,13 +19,23 @@
     },
     {
       "path": "articles/hdhp-vs-ppo-cheaper-plan/index.html",
-      "bytes": 51682,
-      "sha256": "dad8eed4430b046151fa8084f4fdea3daa11fbe0cf127ec6cbbb93a97824440b"
+      "bytes": 51653,
+      "sha256": "962d2fbfa3a5d1225bd5b04de908ab45dae1bb4bf3a44e3079103a36030ace86"
+    },
+    {
+      "path": "articles/hmo-vs-ppo/index.html",
+      "bytes": 24340,
+      "sha256": "a1ec45abf1c68270a34703cecfb8bc414498914d85e863acf2c8ff194f84c748"
+    },
+    {
+      "path": "articles/hsa-vs-fsa/index.html",
+      "bytes": 21950,
+      "sha256": "dfadd9c87eefbef3ad13d549b961de1fa1c4783118a5e1df8d16385c0bf310e9"
     },
     {
       "path": "articles/index.html",
-      "bytes": 5452,
-      "sha256": "dac874d77b804c834b888dd93fe3ec3f54fc93bfacbadb391925c240fa83e62e"
+      "bytes": 7811,
+      "sha256": "f925b113e1141f1a765c3239d0eb45334a2299ce82c34c3de7c1cb35b78146c0"
     },
     {
       "path": "assets/bill-timing.svg",
@@ -93,6 +103,66 @@
       "sha256": "b2818b3ee7d4ffebbdd6163e3fc186ad78ab54efe8b62b3a7528542879322d42"
     },
     {
+      "path": "assets/hmo-vs-ppo-hero-1200.webp",
+      "bytes": 14940,
+      "sha256": "a87e68f3ee66615017d8fa0272c8dbdec5c78f2117d6982d7e86fc3743811c1e"
+    },
+    {
+      "path": "assets/hmo-vs-ppo-hero-480.webp",
+      "bytes": 5730,
+      "sha256": "c806650ed6dfaa6188f4c085f480ba13f470c5ddaac153c0b0619fd39013ca40"
+    },
+    {
+      "path": "assets/hmo-vs-ppo-hero-768.webp",
+      "bytes": 9226,
+      "sha256": "40ee80871407b8811f9a70d9495e1c5b896dc8874e1591918723fcd0bab785fd"
+    },
+    {
+      "path": "assets/hmo-vs-ppo-hero.png",
+      "bytes": 56561,
+      "sha256": "5ec79032cbba14ac176d13ee9f5acf70375097f6e036766f233906ba3e7d7267"
+    },
+    {
+      "path": "assets/hmo-vs-ppo-og.png",
+      "bytes": 56561,
+      "sha256": "5ec79032cbba14ac176d13ee9f5acf70375097f6e036766f233906ba3e7d7267"
+    },
+    {
+      "path": "assets/hmo-vs-ppo-video-thumbnail.webp",
+      "bytes": 53046,
+      "sha256": "f4100c61890644b02a8c95f6914efd68f9c474a2c624577b2e6ef15a877aef76"
+    },
+    {
+      "path": "assets/hsa-vs-fsa-hero-1200.webp",
+      "bytes": 15976,
+      "sha256": "e4fb6e85a86943043a4376d8210df234dfdcf701123f64d47ac1f512ca2792a3"
+    },
+    {
+      "path": "assets/hsa-vs-fsa-hero-480.webp",
+      "bytes": 6506,
+      "sha256": "7c410a4ca90fe27f35c6e2830bbf8f8a43dde315da38e63717694ea6548323d1"
+    },
+    {
+      "path": "assets/hsa-vs-fsa-hero-768.webp",
+      "bytes": 10638,
+      "sha256": "ff617c55faa8424984c833cc40a5357547048b19545ef58d5e10fb7a267eb942"
+    },
+    {
+      "path": "assets/hsa-vs-fsa-hero.png",
+      "bytes": 63796,
+      "sha256": "eaae489d09142c0fa32bade05adb13d5388e15f22b80492b4c993744cc096815"
+    },
+    {
+      "path": "assets/hsa-vs-fsa-og.png",
+      "bytes": 63796,
+      "sha256": "eaae489d09142c0fa32bade05adb13d5388e15f22b80492b4c993744cc096815"
+    },
+    {
+      "path": "assets/hsa-vs-fsa-video-thumbnail.webp",
+      "bytes": 61962,
+      "sha256": "d7f93563a1746ff3dc37d20abdecb0e792d57d47ed1cb2731ad9e90d87a3047e"
+    },
+    {
       "path": "assets/manrope.woff2",
       "bytes": 24836,
       "sha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972"
@@ -119,13 +189,13 @@
     },
     {
       "path": "llms-full.txt",
-      "bytes": 52829,
-      "sha256": "6a6630bbcccf78e30226f98ae081027e70c31643511d28a4d1738ac96798f332"
+      "bytes": 76218,
+      "sha256": "1af33b50a0f8b75091a322412a2cd228fff44ed98c51734a21547ea8debe4516"
     },
     {
       "path": "llms.txt",
-      "bytes": 1576,
-      "sha256": "343c63c539f73d4d872d9309cbe4a066f07eb469a32da4adecd0665cf8de882e"
+      "bytes": 2084,
+      "sha256": "1db1f806eca041363860a16d07c686c58ac07797da38b3ee2e8f04bb969ff209"
     },
     {
       "path": "robots.txt",
@@ -144,8 +214,8 @@
     },
     {
       "path": "sitemap.xml",
-      "bytes": 488,
-      "sha256": "9c0f4f958a82217ec9349347422fd29dab3edcd2cc7766fd83f0af92a5987539"
+      "bytes": 626,
+      "sha256": "ef64f97f229df42cac520d544e50d40f25baa8fdd92c07d7d8dc7c9d5de104b5"
     },
     {
       "path": "tools/health-plan-comparison/index.html",
